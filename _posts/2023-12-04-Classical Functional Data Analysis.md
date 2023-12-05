@@ -79,7 +79,7 @@ $\hat{\mu}(t) = \hat{c}_0(t)$
 
 First, we use the estimated mean functions to estimate the raw covariance function $\hat{C}(t, t'):$
 
-$\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij})) \cdot (s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
+$\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij}))(s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
 
 
 
@@ -94,7 +94,7 @@ $\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij})) \cdot (s_i(t_{i
 The minimization problem is as follows:
 
 
-$\min_{c_0, c_1, c_2} \Sigma_{i=1}^{n} \Sigma_{1 \leq j \neq k \leq m_i} W(\frac{t_{i,j} - t}{h},\frac{t_{i,k} - t}{h}) \left\{\hat{C}(t_{i,j}, t_{i,k}) - c_0 - c_1(t - t_{i,j}) - c_2(t' - t_{i,k})\right\}^2$
+$\min_{c_0, c_1, c_2} \Sigma_{i=1}^{n} \Sigma_{1 \leq j \neq k \leq m_i} W(\frac{t_{i,j} - t}{h},\frac{t_{i,k} - t}{h}) (\hat{C}(t_{i,j}, t_{i,k}) - c_0 - c_1(t - t_{i,j}) - c_2(t' - t_{i,k}))^2$
 
 
 
