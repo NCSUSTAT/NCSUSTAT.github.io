@@ -43,6 +43,11 @@ where $\phi(t) = \left(\Sigma_{j=1}^{d_n} (\varphi_j)^2(t)\right)^{\frac{1}{2}}$
 - VI. PACE (Principal Analysis by Conditional Expectation)
 
 ## Estimated Covariance function  
+![Estimated Covariance Function(PACE)](/images/PACE_1.png)
+
+![Estimated Covariance Function(PFBE)](/images/PFBE.png)
+
+![Estimated Covariance Function(SNPTM)](/images/SNPTM.png)
 
 
 
