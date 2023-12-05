@@ -1,6 +1,6 @@
 
 
-\dot Signal Functional Form
+$\dot$ Signal Functional Form
 
 $\{s_i(t)\}$: observed signals, $i=1, \ldots, N$
 
