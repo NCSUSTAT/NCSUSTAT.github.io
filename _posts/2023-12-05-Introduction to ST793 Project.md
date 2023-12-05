@@ -1,6 +1,7 @@
+-------
 
-
-##Introduction
+-------
+#Introduction
    Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
 that traditional statistical methods struggle to address effectively. The ability to represent data as functions
 allows for a more nuanced understanding of underlying structures and trends, particularly in domains where
