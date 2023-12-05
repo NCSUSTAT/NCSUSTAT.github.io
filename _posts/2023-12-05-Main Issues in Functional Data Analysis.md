@@ -16,7 +16,9 @@ been estimated by numerical integration, which works
 well when the density of the grid of measurements for each
 subject is sufficiently large. 
 
-$\hat{\xi}_{ik}=\Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot \Delta t_j$
+
+$\hat{\xi}_{ik} = \sum_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \hat{\phi}_k(t_j) \Delta t_j
+
 
 
 Where:
