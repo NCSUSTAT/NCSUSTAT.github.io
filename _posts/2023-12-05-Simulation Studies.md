@@ -37,10 +37,13 @@ $\Sigma_{j=1}^{d_n} \theta_j = 1$,
 where $\phi(t) = \left(\Sigma_{j=1}^{d_n} (\varphi_j)^2(t)\right)^{\frac{1}{2}}$ and $\{\varphi_1, \ldots\}$ are fixed orthonormal Fourier basis functions defined on $T$.
 
 ## Estimaors to compare 
-
-
-
+- I.SNPTM
+- II.SNPTF
+- III.PFBE (penalized Fourier basis expansion)
+- VI. PACE (Principal Analysis by Conditional Expectation)
 
 ## Estimated Covariance function  
+
+
 
 
