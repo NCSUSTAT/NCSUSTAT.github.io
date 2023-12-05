@@ -26,7 +26,7 @@ Where:
 
 
 Because in our model the $Y_{ij}$ are available only at discrete random times $T_{ij}$, reflecting the sparseness of the data, the integrals in the definition of the FPC scores $\xi_{ik}$ accordingly would be approximated by sums, substituting $Y_{ij}$ for $X_i(T_{ij})$ and estimates $\hat{\mu}(t_{ij})$
-for $\mu(t_{ij})$ and $\hat{\phi}_{k}(t_{ij})$ for $\phi_k(t_{ij})$, leading to $\hat{\xi}_{ik}^{S} = \sum_{j=1}^{N_i}(Y_{ij} - \hat{\mu}(T_{ij})) \hat{\phi}_k(T_{ij})(T_{ij} - T_{i,j-1})$, setting $T_{i0} = 0$. For sparse functional data, $\hat{\xi}_{ik}^{S}$ will not provide reasonable approximations to $\xi_{ik}$, for example, when one has only two observations per subject. Moreover, when the measurements are contaminated with errors, the underlying random process $X$ cannot be directly observed. Substituting $Y_{ij}$ for $X_i(T_{ij})$ then leads to biased
+for $\mu(t_{ij})$ and $\hat{\phi_k}(t_{ij})$ for $\phi_k(t_{ij})$, leading to $\hat{\xi_{ik}^{S}} = \Sigma_{j=1}^{N_i}(Y_{ij} - \hat{\mu}(T_{ij})) \hat{\phi_k}(T_{ij})(T_{ij} - T_{i,j-1})$, setting $T_{i0} = 0$. For sparse functional data, $\hat{\xi_{ik}^{S}}$ will not provide reasonable approximations to $\xi_{ik}$, for example, when one has only two observations per subject. Moreover, when the measurements are contaminated with errors, the underlying random process $X$ cannot be directly observed. Substituting $Y_{ij}$ for $X_i(T_{ij})$ then leads to biased
 FPC scores. These considerations motivate the alternative PACE method to obtain the FPC scores.
 
 
