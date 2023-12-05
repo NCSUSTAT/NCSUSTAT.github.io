@@ -41,28 +41,26 @@ $\epsilon_i(t) \approx \sum_{k=1}^{K} \xi_{i,k} \phi_k(t)$
 
 Where:
 
-\begin{align*}
 s_i(t) &= \mu(t) + \epsilon_i(t) \\
 &\approx \mu(t) + \sum_{k=1}^{K} \xi_{i,k} \phi_k(t)
-\end{align*}
+
 
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
 
 $\textbullet$ Model Estimation
 
-\begin{itemize}
-    \item Complete signals: sampled regularly
-    \item Incomplete signals: sampled irregularly, sparse, fragmented
-\end{itemize}
+    $\item$ Complete signals: sampled regularly
+    $\item$ Incomplete signals: sampled irregularly, sparse, fragmented
+
 
 
 $\textbullet$ Estimation of Mean Function
 
 Historical signals $s_{ij}$:
-\begin{itemize}
-    \item $i=1,\ldots,N$: signal index
-    \item $j=1,\ldots,m_i$: observation index in each signal
-\end{itemize}
+
+    $\item$ $i=1,\ldots,N$: signal index
+    $\item$ $j=1,\ldots,m_i$: observation index in each signal
+
 
 
 
