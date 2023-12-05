@@ -67,7 +67,7 @@ Historical signals $s_{ij}$:
 
 We can estimate the mean function $\hat{\mu}(t)$ using local linear regression by minimizing:
 
-$minimize_((c_0,c_1)) \  \mathcal{L}(\mathbf{c}_0, \mathbf{c}_1) = \Sigma_{i=1}^{n} \Sigma_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left ({s_{ij} - c_0 - (t - t_{ij})c_1)^2$
+ $\min_{(c_0,c_1)} }\sum_{i=1}^{n} \sum_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left \{{s_{ij} - c_0 - (t - t_{ij})c_1\}^2$
 
 
 The solution is given by:
