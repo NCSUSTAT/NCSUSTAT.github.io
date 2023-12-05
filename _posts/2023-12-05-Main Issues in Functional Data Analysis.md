@@ -2,7 +2,7 @@
 ues_math: true
 ---
 
-## Sparse, fragmented, irregularly sampled data  
+## Sparse(right), fragmented(middle), irregularly sampled data  
 
 
 
