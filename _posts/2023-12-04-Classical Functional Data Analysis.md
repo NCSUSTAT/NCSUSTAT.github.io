@@ -1,6 +1,5 @@
 ---
 use_math: true
-
 ---
 ## Signal Functional Form
 
