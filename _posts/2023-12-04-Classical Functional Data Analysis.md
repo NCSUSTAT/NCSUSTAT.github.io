@@ -1,6 +1,6 @@
 ---
-use_math: true
 
+use_math: true
 ---
 $\textbullet$ Signal Functional Form
 
