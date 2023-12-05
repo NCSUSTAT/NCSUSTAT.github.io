@@ -4,8 +4,7 @@
 
  
 ## REFERENCE
-[1] 1. Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets.
-Journal of Statistics, 25(3), 123-145.
+- [1] 1. Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of Statistics, 25(3), 123-145.
 
 
 
