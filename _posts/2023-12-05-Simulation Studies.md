@@ -29,7 +29,7 @@ II.SNPTF
 The correlation function $\rho$ falls into $\mathcal{F}_n$, a $d_n$-dimensional family of models for correlation functions, when the sample size is $n$.
 Here, the dimension typically grows with the sample size. For example, one might consider a $d_n$-Fourier basis family:
 
-$\rho(s, t) = \frac{1}{\sqrt{\phi(s)\phi(t)}} \sum_{j=1}^{d_n} \theta_j\varphi_j(s)\varphi_j(t), \quad \text{where} \quad 0 \leq \theta_1, \ldots, \theta_{d_n} \leq 0$
+$\rho(s, t) = \frac{1}{\sqrt{\phi(s)\phi(t)}} \Sigma_{j=1}^{d_n} \theta_j\varphi_j(s)\varphi_j(t), \quad \text{where} \quad 0 \leq \theta_1, \ldots, \theta_{d_n} \leq 0$
 
 and
 
