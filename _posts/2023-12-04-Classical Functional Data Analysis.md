@@ -11,13 +11,13 @@ It includes both random noise and signal-to-signal variations.
 
 $\rightarrow s_i(t) = \mu(t) + \epsilon_i(t)$
 
-#Karhunen–Loeve Theorem
+$\textbullet$Karhunen–Loeve Theorem
 
 Using the Karhunen–Loeve Theorem, $\epsilon(t)$ can be written as:
 
-\[
+
 \epsilon(t) = \sum_{i=1}^{\infty} \xi_{ik} \phi_k(t)
-\]
+
 
 Where $\xi_{ik}$ are zero-mean and uncorrelated coefficients, i.e., $\mathbb{E}(\xi_{ik}) = 0$ and $\mathbb{E}(\xi_{ik}^2) = \lambda_k$, and $\phi_k(t)$ are eigen-functions of the covariance function $C(t,t')$:
 
@@ -31,7 +31,7 @@ where $\lambda_1 \geq \lambda_2 \geq \ldots$ are ordered eigenvalues. The eigenf
 \int_{0}^{M} C(t,t') \phi_k(t') dt' = \lambda_k \phi_k(t)
 \]
 
-#Functional PCA
+$\textbullet$Functional PCA
 
 The variance of $\xi_{ik}$ quickly decays with $k$. Therefore, only a few $\xi_{ik}$, also known as FPC-scores, would be enough to accurately approximate the noise function. That is, the signal decomposition is given by:
 
@@ -48,7 +48,7 @@ s_i(t) &= \mu(t) + \epsilon_i(t) \\
 
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
 
-#Model Estimation
+$\textbullet$Model Estimation
 
 \begin{itemize}
     \item Complete signals: sampled regularly
@@ -56,7 +56,7 @@ Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of 
 \end{itemize}
 
 
-#Estimation of Mean Function
+$\textbullet$Estimation of Mean Function
 
 Historical signals $s_{ij}$:
 \begin{itemize}
@@ -79,7 +79,7 @@ The solution is given by:
 \hat{\mu}(t) = \hat{c}_0(t) 
 \]
 
-#Estimation of Covariance Function
+$\textbullet$Estimation of Covariance Function
 
 First, we use the estimated mean functions to estimate the raw covariance function $\hat{C}(t, t'):$
 
@@ -111,7 +111,7 @@ To estimate the covariance surface $\hat{C}(t, t')$, we use local quadratic regr
 
 To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by discretizing the estimated covariance function $\hat{C}(t, t')$.
 
-#Computing FPC-Scores
+$\textbullet$Computing FPC-Scores
 
 To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equation:
 
