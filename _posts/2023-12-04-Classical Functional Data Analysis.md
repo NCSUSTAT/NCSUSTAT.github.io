@@ -49,17 +49,17 @@ Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of 
 
 $\textbullet$ Model Estimation
 
-    \item Complete signals: sampled regularly
-    \item Incomplete signals: sampled irregularly, sparse, fragmented
+ -Complete signals: sampled regularly
+ -Incomplete signals: sampled irregularly, sparse, fragmented
 
 
 
 $\textbullet$ Estimation of Mean Function
 
 Historical signals $s_{ij}$:
-
-    $\item$ $i=1,\ldots,N$: signal index
-    $\item$ $j=1,\ldots,m_i$: observation index in each signal
+ 
+  -$i=1,\ldots,N$: signal index
+  -$j=1,\ldots,m_i$: observation index in each signal
 
 
 
@@ -69,7 +69,7 @@ Historical signals $s_{ij}$:
 
 We can estimate the mean function $\hat{\mu}(t)$ using local linear regression by minimizing:
 
-$\text{minimize_{(c_0,c_1)} }\  \mathcal{L}(\mathbf{c}_0, \mathbf{c}_1) = \Sigma_{i=1}^{n} \Sigma_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left \{{s_{ij} - c_0 - (t - t_{ij})c_1\}^2$
+$minimize_{(c_0,c_1)} \  \mathcal{L}(\mathbf{c}_0, \mathbf{c}_1) = \Sigma_{i=1}^{n} \Sigma_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left \{{s_{ij} - c_0 - (t - t_{ij})c_1\}^2$
 
 
 The solution is given by:
@@ -115,12 +115,7 @@ To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equatio
 
 $\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_k(t) \, dt = \hat{\lambda_{k}}\hat{\phi}_k(t') $
 
-$\int_{0}^{M} \phi_k(t) \cdot \phi_m(t) \, dt :=
-    (1, &  if  \ m = k),   \\
-    (0, &  if  \ m \neq k)  \\
-$
-
-
+$\int_{0}^{M} \phi_k(t) \cdot \phi_m(t) \, dt :=(1, &  if  \ m = k), (0, &  if  \ m \neq k) $
 
 - $\int_0^M \phi_k(t) \cdot \phi_m(t) \, dt$ represents the integral of the product of eigenfunctions \\
 $\phi_k(t)$ and $\phi_m(t)$ over the interval [0, M]. The equation evaluates to 1 if $m$ equals $k$ (i.e., $m = k$), indicating that the eigenfunctions are orthonormal for the same index.\\
