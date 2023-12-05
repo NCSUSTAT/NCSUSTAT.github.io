@@ -57,8 +57,8 @@ $\textbullet$ Estimation of Mean Function
 
 Historical signals $s_{ij}$:
  
-  -$i=1,\ldots,N$: signal index
-  -$j=1,\ldots,m_i$: observation index in each signal
+  -i=1,$\ldots$,N: signal index
+  -$j=1,$\ldots$,m_i: observation index in each signal
 
 
 
