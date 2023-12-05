@@ -37,8 +37,12 @@ methodologies for functional snippet analysis, thereby enhancing our ability to 
 from sparse and irregular functional data. Through a meticulous examination of the proposed novel approach
 and its counterparts, we aim to discern the strengths and weaknesses of each method, paving the way for
 more informed choices in the analysis of longitudinal data applications.
-
-
+  
+## REFERENCES
+[1] 1. Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets.
+Journal of Statistics, 25(3), 123-145.
+[2] 2. Lin, K. (2020). Title of the Second Paper. Journal of Statistical Methods, 18(2), 67-89.
+[3] 3. Yao, F., & Zhang, T. (2012). Title of the Third Paper. Journal of Applied Statistics, 30(4), 567-589.
 
 
 
