@@ -78,7 +78,7 @@ $\textbullet$ Estimation of Covariance Function
 
 First, we use the estimated mean functions to estimate the raw covariance function $\hat{C}(t, t'):$
 
-$\hat{C}_i(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij})) \cdot (s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
+$\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij})) \cdot (s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
 
 
 
