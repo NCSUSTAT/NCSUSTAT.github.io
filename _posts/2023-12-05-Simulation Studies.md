@@ -17,12 +17,14 @@ III. $C(s, t) = \Sigma_{1 \leq j, k \leq 5} c_{jk}\phi_j(s)\phi_k(t)$ with $c_{j
 ## Setting of Suggested New Estimator 
 
 We use two types of correlation function for model. 
+
 I.SNPTM(matern correlation function)
 $\rho(s, t) = \frac{1}{(2\pi\theta_1^2)^{\frac{1}{2}}} \exp\left(-\frac{1}{2\theta_1^2}(s - t)^2\right) \left(\frac{1}{\theta_2}\right)^{\theta_1} \left|s - t\right|^{\theta_1 - 1} B_{\theta_1}\left(\frac{|s - t|}{\theta_2}\right)$
 
 where $B_{\theta_1}(\cdot)$ is the modified Bessel function of the second kind of order $\theta_1$, and $\theta_1$ and $\theta_2$ are positive constants.
 
 II.SNPTF
+
 The correlation function $\rho$ falls into $\mathcal{F}_n$, a $d_n$-dimensional family of models for correlation functions, when the sample size is $n$.
 Here, the dimension typically grows with the sample size. For example, one might consider a $d_n$-Fourier basis family:
 
