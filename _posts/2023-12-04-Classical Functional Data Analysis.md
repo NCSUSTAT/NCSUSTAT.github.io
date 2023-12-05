@@ -22,7 +22,7 @@ $\epsilon(t) = \Sigma_{i=1}^{\infty} \xi_{ik} \phi_k(t)$
 Where $\xi_{ik}$ are zero-mean and uncorrelated coefficients, i.e., $\mathbb{E}(\xi_{ik}) = 0$ and $\mathbb{E}(\xi_{ik}^2) = \lambda_k$, and $\phi_k(t)$ are eigen-functions of the covariance function $C(t,t')$:
 
 
-$C(t,t') = \sigma_{k=1}^{\infty} \lambda_k \phi_k(t) \phi_k(t')$
+$C(t,t') = \Sigma_{k=1}^{\infty} \lambda_k \phi_k(t) \phi_k(t')$
 
 
 where $\lambda_1 \geq \lambda_2 \geq \ldots$ are ordered eigenvalues. The eigenfunctions can be obtained by solving:
@@ -36,13 +36,13 @@ $\textbullet$ Functional PCA
 The variance of $\xi_{ik}$ quickly decays with $k$. Therefore, only a few $\xi_{ik}$, also known as FPC-scores, would be enough to accurately approximate the noise function. That is, the signal decomposition is given by:
 
 
-$\epsilon_i(t) \approx \sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
+$\epsilon_i(t) \approx \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
 
 
 Where:
 
 s_i(t) &= \mu(t) + \epsilon_i(t) \\
-&\approx \mu(t) + \sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)
+&\approx \mu(t) + \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)
 
 
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
@@ -64,12 +64,12 @@ Historical signals $s_{ij}$:
 
 
 
- $S_{i}(t_{ij}) \approx \mu(t_{ij}) + \sigma_{k=1}^{K} \xi_{ik} \varphi_{k}(t_{ij})$
+ $S_{i}(t_{ij}) \approx \mu(t_{ij}) + \Sigma_{k=1}^{K} \xi_{ik} \varphi_{k}(t_{ij})$
 
 
 We can estimate the mean function $\hat{\mu}(t)$ using local linear regression by minimizing:
 
-$\text{minimize_{(c_0,c_1)} }\  \mathcal{L}(\mathbf{c}_0, \mathbf{c}_1) = \sigma_{i=1}^{n} \sigma_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left \{{s_{ij} - c_0 - (t - t_{ij})c_1\}^2$
+$\text{minimize_{(c_0,c_1)} }\  \mathcal{L}(\mathbf{c}_0, \mathbf{c}_1) = \Sigma_{i=1}^{n} \Sigma_{j=1}^{m_i} W(\frac{t_i - t_{ij}}{h}) \left \{{s_{ij} - c_0 - (t - t_{ij})c_1\}^2$
 
 
 The solution is given by:
@@ -96,7 +96,7 @@ $\hat{C}_i(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij})) \cdot (s_i(t_{ik}
 The minimization problem is as follows:
 
 
-$\min_{c_0, c_1, c_2} \sigma_{i=1}^{n} \sigma_{1 \leq j \neq k \leq m_i} W(\frac{t_{i,j} - t}{h},\frac{t_{i,k} - t}{h}) \left\{\hat{C}(t_{i,j}, t_{i,k}) - c_0 - c_1(t - t_{i,j}) - c_2(t' - t_{i,k})\right\}^2$
+$\min_{c_0, c_1, c_2} \Sigma_{i=1}^{n} \Sigma_{1 \leq j \neq k \leq m_i} W(\frac{t_{i,j} - t}{h},\frac{t_{i,k} - t}{h}) \left\{\hat{C}(t_{i,j}, t_{i,k}) - c_0 - c_1(t - t_{i,j}) - c_2(t' - t_{i,k})\right\}^2$
 
 
 
@@ -134,7 +134,7 @@ $\phi_k(t)$ and $\phi_m(t)$ over the interval [0, M]. The equation evaluates to 
 -To compute the FPC-scores $\hat{\zeta}_{ik}$, we use numerical integration, where $t_0 = 0$. The integration formula is as follows:
 
 
-$\hat{\zeta}_{ik} = \sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot \Delta t_j$
+$\hat{\zeta}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot \Delta t_j$
 
 
 Where:
