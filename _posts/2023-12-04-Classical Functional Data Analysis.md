@@ -49,8 +49,8 @@ Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of 
 
 $\textbullet$ Model Estimation
 
-    $\item$ Complete signals: sampled regularly
-    $\item$ Incomplete signals: sampled irregularly, sparse, fragmented
+    \item Complete signals: sampled regularly
+    \item Incomplete signals: sampled irregularly, sparse, fragmented
 
 
 
