@@ -43,6 +43,13 @@ where $\phi(t) = \left(\Sigma_{j=1}^{d_n} (\varphi_j)^2(t)\right)^{\frac{1}{2}}$
 - VI. PACE (Principal Analysis by Conditional Expectation)
 
 ## Estimated Covariance function  
+
+
+
+To evaluate the numerical performance of the proposed estimators, we generated $X(t)$ from a Gaussian process. Matérn correlation function $\rho = (0.5, 1)$ were considered:
+
+sample sizes $n = 100$ were considered to illustrate the behavior of the estimators. We set the domain $T = [0, 1]$ and $\delta = 0.5$.
+
 ![Estimated Covariance Function(PACE)](/images/PACE_1.png)
 
 ![Estimated Covariance Function(PFBE)](/images/PFBE.png)
