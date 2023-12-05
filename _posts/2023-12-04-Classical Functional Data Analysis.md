@@ -111,7 +111,7 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equation:
 
 
-$\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_{k}(t)dt = \hat{\lambda_{k}}\hat{\phi}_k(t') $
+$\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_k(t)dt = \hat{\lambda}_{k}\hat{\phi}_k(t') $
 
 $\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,   if  \ m \neq k) $
 
