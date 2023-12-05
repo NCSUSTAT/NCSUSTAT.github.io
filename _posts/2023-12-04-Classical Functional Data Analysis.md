@@ -41,8 +41,7 @@ $\epsilon_i(t) \approx \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
 
 Where:
 
-s_i(t) &= \mu(t) + \epsilon_i(t) \\
-&\approx \mu(t) + \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)
+$s_i(t) &= \mu(t) + \epsilon_i(t) \approx \mu(t) + \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
 
 
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
