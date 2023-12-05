@@ -16,7 +16,7 @@ $\textbullet$ Karhunen–Loeve Theorem
 Using the Karhunen–Loeve Theorem, $\epsilon(t)$ can be written as:
 
 
-$\epsilon(t) = \sigma_{i=1}^{\infty} \xi_{ik} \phi_k(t)$
+$\epsilon(t) = \Sigma_{i=1}^{\infty} \xi_{ik} \phi_k(t)$
 
 
 Where $\xi_{ik}$ are zero-mean and uncorrelated coefficients, i.e., $\mathbb{E}(\xi_{ik}) = 0$ and $\mathbb{E}(\xi_{ik}^2) = \lambda_k$, and $\phi_k(t)$ are eigen-functions of the covariance function $C(t,t')$:
