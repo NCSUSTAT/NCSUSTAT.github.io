@@ -6,3 +6,5 @@ ues_math: true
 
 
 
+![fragmented(middle), sparse(right) data set](/images/sp_img.png)
+
