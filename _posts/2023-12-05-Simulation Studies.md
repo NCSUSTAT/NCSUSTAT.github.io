@@ -1,8 +1,10 @@
 ---
+$\usepackage{amssymb,amsmath,amsfonts, verbatim}$
 use_math: true
+
 ---
 
-$\usepackage{amssymb,amsmath,amsfonts, verbatim}$
+
 
 ## Generation of Data 
  
