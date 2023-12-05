@@ -1,10 +1,11 @@
 ---
 use_math: true
+---
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
----
+
 ## Signal Functional Form
 
 $\{s_i(t)\}$: observed signals, $i=1, \ldots, N$
