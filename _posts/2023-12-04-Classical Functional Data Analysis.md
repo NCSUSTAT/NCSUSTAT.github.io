@@ -1,11 +1,4 @@
----
-title: "Classical Functional Data Analysis"
-use_math: true
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
----
+
 
 #Signal Functional Form
 
