@@ -83,7 +83,7 @@ $\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij}))(s_i(t_{ik}) - \
 
 
 
--$\hat{C}_i(t_{ij}, t_{ik})$ is the covariance between observations $i$ at times $t_{ij}$ and $t_{ik}$.\\
+- $\hat{C}_i(t_{ij}, t_{ik})$ is the covariance between observations $i$ at times $t_{ij}$ and $t_{ik}$.\\
 - $s_i(t_{ij})$ is the signal at observation $i$ and time $t_{ij}$.\\
 - $\hat{\mu}(t_{ij})$ is the estimated mean function at time $t_{ij}$.\\
 - $s_i(t_{ik})$ is the signal at observation $i$ and time $t_{ik}$.\\
