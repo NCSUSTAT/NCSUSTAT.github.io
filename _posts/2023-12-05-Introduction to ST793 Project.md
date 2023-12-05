@@ -1,6 +1,7 @@
 -------
 use_math: true
 -------
+
 ## Introduction
   
    - Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
