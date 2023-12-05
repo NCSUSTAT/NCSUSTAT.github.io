@@ -1,5 +1,4 @@
 ---
-$\usepackage{amssymb,amsmath,amsfonts, verbatim}$
 use_math: true
 
 ---
