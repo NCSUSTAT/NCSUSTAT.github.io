@@ -3,7 +3,7 @@ use_math: true
 -------
 ## Introduction
   
-   -Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
+   - Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
 that traditional statistical methods struggle to address effectively. The ability to represent data as functions
 allows for a more nuanced understanding of underlying structures and trends, particularly in domains where
 observations evolve continuously over a continuum.
@@ -21,13 +21,13 @@ PACE (PEnalized Covariance Estimation). PFBE and PACE are well-established metho
 their comparison with the novel approach will provide valuable insights into the strengths and limitations of
 each.
 
-   -In the context of functional snippet analysis, the mean and covariance structure play pivotal roles in
+   - In the context of functional snippet analysis, the mean and covariance structure play pivotal roles in
 capturing essential characteristics of the data. The proposed research will delve into the mathematical
 foundations of these methods, emphasizing the underlying formulas that drive the estimation processes.
 Understanding these formulas is crucial for appreciating the nuances in how each method approaches the
 challenges posed by functional snippets.
 
-   -The primary formulae underpinning the mean and covariance estimation for functional snippets, as
+   - The primary formulae underpinning the mean and covariance estimation for functional snippets, as
 introduced by Li et al. and extended by PFBE and PACE, will be a focal point of our comparative analysis.
 Exploring these mathematical expressions will shed light on the theoretical foundations of each method and
 provide a basis for comparing their efficacy in capturing the inherent complexities of functional snippets.
