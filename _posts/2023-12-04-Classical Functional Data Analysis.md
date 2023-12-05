@@ -47,7 +47,7 @@ $s_i(t) = \mu(t) + \epsilon_i(t) \approx \mu(t) + \Sigma_{k=1}^{K} \xi_{i,k} \ph
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
 
 $\textbullet$ Model Estimation
- -Complete signals: sampled regularly
+ -Complete signals: sampled regularly\\
  -Incomplete signals: sampled irregularly, sparse, fragmented
 
 
