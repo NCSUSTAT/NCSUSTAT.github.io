@@ -46,7 +46,6 @@ $\int_{0}^{M} C(t,t') \phi_k(t') dt' = \lambda_k \phi_k(t)$
 ## Functional PCA
 
 The variance of $\xi_{ik}$ quickly decays with $k$. Therefore, only a few $\xi_{ik}$, also known as FPC-scores, would be enough to accurately approximate the noise function. That is, the signal 
-
 decomposition is given by:
 
 
