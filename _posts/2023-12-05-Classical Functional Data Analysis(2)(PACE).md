@@ -37,10 +37,10 @@ First, we use the estimated mean functions to estimate the raw covariance functi
 
 $\hat{C_i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij}))(s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
 
-- $\hat{C_i}(t_{ij}, t_{ik})$ is the covariance between observations $i$ at times $t_{ij}$ and $t_{ik}$.\\
-- $s_i(t_{ij})$ is the signal at observation $i$ and time $t_{ij}$.\\
-- $\hat{\mu}(t_{ij})$ is the estimated mean function at time $t_{ij}$.\\
-- $s_i(t_{ik})$ is the signal at observation $i$ and time $t_{ik}$.\\
+- $\hat{C_i}(t_{ij}, t_{ik})$ is the covariance between observations $i$ at times $t_{ij}$ and $t_{ik}$.
+- $s_i(t_{ij})$ is the signal at observation $i$ and time $t_{ij}$.
+- $\hat{\mu}(t_{ij})$ is the estimated mean function at time $t_{ij}$.
+- $s_i(t_{ik})$ is the signal at observation $i$ and time $t_{ik}$.
 - $\hat{\mu}(t_{ik})$ is the estimated mean function at time $t_{ik}$.
 
 The minimization problem is as follows:
