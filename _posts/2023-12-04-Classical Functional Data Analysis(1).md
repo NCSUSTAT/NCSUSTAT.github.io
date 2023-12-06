@@ -49,12 +49,12 @@ The variance of $\xi_{ik}$ quickly decays with $k$. Therefore, only a few $\xi_{
 decomposition is given by:
 
 
-$\epsilon_i(t) \approx \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
+$\epsilon_i(t)\approx\Sigma_{k=1}^{K}\xi_{i,k}\phi_k(t)$
 
 
 Where:
 
-$s_i(t) = \mu(t) + \epsilon_i(t) \approx \mu(t) + \Sigma_{k=1}^{K} \xi_{i,k} \phi_k(t)$
+$s_i(t)=\mu(t)+\epsilon_i(t)\approx\mu(t)+\Sigma_{k=1}^{K}\xi_{i,k}\phi_k(t)$
 
 
 Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of the covariance function.
@@ -64,9 +64,9 @@ Here, $\xi_{i,k}$ are the FPC-scores, and $\phi_k(t)$ are the eigenfunctions of 
 
 To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equation:
 
-$\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_k(t)dt = \hat{\lambda}_k\hat{\phi}_k(t') $
+$\int_{0}^{M} \hat{C}(t, t')\hat{\phi}_k(t)dt=\hat{\lambda}_k\hat{\phi}_k(t')$
 
-$\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,   if  \ m \neq k) $
+$\int_{0}^{M} \hat{\phi}_k(t)\cdot \hat{\phi}_m(t)dt :=(1, if \ m = k), (0, if \ m \neq k)$
 
 The equation evaluates to 0 if $m$ is not equal to $k$ (i.e., $m \neq k$), indicating that the eigenfunctions are orthogonal for different indices.
 
@@ -76,7 +76,7 @@ To compute the FPC-scores $\hat{\xi}_{ik}$, we use numerical integration, where 
 
 - computing FPC-scores: 
 
-$\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
+$\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt$
 
 $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k}(t_j)\cdot(t_{j}-t_{j-1})$
 
