@@ -18,7 +18,7 @@ Historical signals $s_{ij}$:
 
   i=1,...,N: signal index
   
-  j=1,...,$m_{i}$: observation index in each signal
+  j=1,...,$m_i$: observation index in each signal
 
  $S_{i}(t_{ij}) \approx \mu(t_{ij}) + \Sigma_{k=1}^{K} \xi_{ik} \varphi_{k}(t_{ij})$
 
@@ -35,7 +35,7 @@ $\hat{\mu}(t) = \hat{c}_0(t)$
 
 First, we use the estimated mean functions to estimate the raw covariance function $\hat{C}(t, t'):$
 
-$\hat{C}_{i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij}))(s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
+$\hat{C_i}(t_{ij}, t_{ik}) = (s_i(t_{ij}) - \hat{\mu}(t_{ij}))(s_i(t_{ik}) - \hat{\mu}(t_{ik}))$
 
 - $\hat{C}_i(t_{ij}, t_{ik})$ is the covariance between observations $i$ at times $t_{ij}$ and $t_{ik}$.\\
 - $s_i(t_{ij})$ is the signal at observation $i$ and time $t_{ij}$.\\
