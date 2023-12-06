@@ -70,7 +70,7 @@ that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is
  
  $= G(T_{ij},T_{il})$
  
- $  + \sigma^2$
+ $+\sigma^2$
  
  $\delta_{jl} $ 
  
