@@ -60,7 +60,7 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 
 ## Computing FPC-Scores
 
-The best prediction of the FPC scores for the $i-th$ subject, given the data from that individual, is the conditional expectation, which, under Gaussian assumptions is found to be 
+The best prediction of the FPC scores for the $i th$ subject, given the data from that individual, is the conditional expectation, which, under Gaussian assumptions is found to be 
 
 $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}^{-1}(\tilde{Y_i} - \mu_i) $
 , where $\Sigma_{Y_i} = \text{cov}(\tilde{Y_i},\tilde{Y_i}) = \text{cov}(\tilde{X_i},\tilde{X_i}) + \sigma^2I_{N_i}$ 
