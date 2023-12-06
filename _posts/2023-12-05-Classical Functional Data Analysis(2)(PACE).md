@@ -60,23 +60,24 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 
 ## Computing FPC-Scores
 
-To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equation:
+The best prediction of the FPC scores for the $i$th subject, given the data from that individual, is the conditional expectation, which, under Gaussian assumptions is found to be 
 
-$\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_k(t)dt = \hat{\lambda}_k\hat{\phi}_k(t') $
+$\widetilde{\xi_{ik}} = E[\xi_{ik}|\tilde{\mathbf{Y}_i}] = \lambda_k\boldsymbol{\phi}_{ik}^T\boldsymbol{\Sigma}_{Y_i}^{-1}(\tilde{\mathbf{Y}_i} - \boldsymbol{\mu}_i) 
 
-$\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,   if  \ m \neq k) $
+where $\boldsymbol{\Sigma}_i = \text{cov}(\tilde{\mathbf{Y}_i},\tilde{\mathbf{Y}_i}) = \text{cov}(\tilde{\mathbf{X}_i},\tilde{\mathbf{X}_i}) + \sigma^2I_{N_i}$ 
 
-The equation evaluates to 0 if $m$ is not equal to $k$ (i.e., $m \neq k$), indicating that the eigenfunctions are orthogonal for different indices.
+that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\boldsymbol{\Sigma_{Y_i}}$ is $(\boldsymbol{\Sigma_{Y_i}})_{j,l} = G(T_{ij},T_{il}) + \sigma^2\delta_{jl}$ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
 
-This is solved by discretizing the estimated covariance function $\hat{C}(t_j, t_j')$.
+Estimates for the FPC scores $\xi_{ik}$ are obtained from (4), by substituting estimates of $\boldsymbol{\mu_i}$, $\lambda_k$, and $\boldsymbol{\phi_{ik}}$, $\boldsymbol{\Sigma_{Y_i}}$ obtained from the entire data ensemble, leading to
 
-To compute the FPC-scores $\hat{\xi}_{ik}$, we use numerical integration, where $t_0 = 0$. The integration formula is as follows:
+\hat{\xi}_{ik} = \hat{\mathbb{E}}[\xi_{ik}|\tilde{\mathbf{Y}_i}] = \hat{\lambda_k}\hat{\boldsymbol{\phi}}_{ik}^T\hat{\boldsymbol{\Sigma}}_{Y_i}^{-1}(\tilde{\mathbf{Y}_i} - \hat{\boldsymbol{\mu}}_i), (5)
 
-- computing FPC-scores: 
+where the $(j, l)$th element of $\hat{\boldsymbol{\Sigma_{Y_i}}$ is $(\hat{\boldsymbol{\Sigma_{Y_i}}_{j,l}} = \hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
 
-$\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
 
-$\hat{\xi_{ik}} \approx \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi_k}(t_j) \cdot (t_{j}-t_{j-1})$
+
+
+
 
 
 
