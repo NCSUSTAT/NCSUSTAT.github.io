@@ -65,13 +65,13 @@ The best prediction of the FPC scores for the $i$th subject, given the data from
 $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}^{-1}(\tilde{Y_i} - \mu_i) $
 , where $\Sigma_{Y_i} = \text{cov}(\tilde{Y_i},\tilde{Y_i}) = \text{cov}(\tilde{X_i},\tilde{X_i}) + \sigma^2I_{N_i}$ 
 
-that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is $(\Sigma_{Y_i}_{j,l}} = G(T_{ij},T_{il}) + \sigma^2\delta_{jl}$ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
+that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is ${\Sigma_{Y_i}}_{j,l} = G(T_{ij},T_{il}) + \sigma^2\delta_{jl}$ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
 
 Estimates for the FPC scores $\xi_{ik}$ are obtained from (4), by substituting estimates of $\mu_i$, $\lambda_k$, and $\phi_{ik}$, $\Sigma_{Y_i}$ obtained from the entire data ensemble, leading to
 
-\hat{\xi}_{ik} = \hat{E}[\xi_{ik}|\tilde{Y_i}] = \hat{\lambda_k}\hat{\boldsymbol{\phi}}_{ik}^T\hat{\Sigma}_{Y_i}^{-1}(\tilde{Y_i} - \hat{\mu_i), (5)
+\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y_i}] = \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i}), (5)
 
-where the $(j, l)$th element of $\hat{\Sigma_{Y_i}}$ is $(\hat{\Sigma_{Y_i}_{j,l}} = \hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
+where the $(j, l)$th element of $\hat{\Sigma_{Y_i}}$ is $(\hat{\Sigma_{Y_i}_{j,l}} = \hat{G(T_{ij},T_{il})} + \hat{\sigma}^2\delta_{jl}$. 
 
 
 
