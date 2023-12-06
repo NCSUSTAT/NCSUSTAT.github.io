@@ -23,7 +23,7 @@ Historical signals $s_{ij}$:
 
   i=1,...,N: signal index
   
-  j=1,...,$m_i$: observation index in each signal
+  $j=1,...,m_i$: observation index in each signal
 
  $S_{i}(t_{ij}) = \mu(t_{ij}) + \Sigma_{k=1}^{\infty} \xi_{ik} \varphi_{k}(t_{ij}) + \epsilon_{ij}$, where $E(\epsilon_{ij})=0, var(\epsilon_{ij})=\sigma^{2}$
 
