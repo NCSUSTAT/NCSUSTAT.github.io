@@ -30,3 +30,6 @@ for $\mu(t_{ij})$ and $\hat{\phi_k}(t_{ij})$ for $\phi_k(t_{ij})$, leading to $\
 FPC scores. These considerations motivate the alternative PACE method to obtain the FPC scores.
 
 
+
+
+
