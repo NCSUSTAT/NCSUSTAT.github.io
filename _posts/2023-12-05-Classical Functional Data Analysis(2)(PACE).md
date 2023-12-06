@@ -16,12 +16,6 @@ use_math: true
 
 
 
-
-
-## Model Estimation
-  Complete signals: sampled regularly
-  
-  Incomplete signals: sampled irregularly, sparse, fragmented
   
 ## Estimation of Mean Function
 
@@ -31,7 +25,9 @@ Historical signals $s_{ij}$:
   
   j=1,...,m_i: observation index in each signal
 
- $S_{i}(t_{ij}) \approx \mu(t_{ij}) + \Sigma_{k=1}^{K} \xi_{ik} \varphi_{k}(t_{ij})$
+ $S_{i}(t_{ij}) = \mu(t_{ij}) + \Sigma_{k=1}^{\infty} \xi_{ik} \varphi_{k}(t_{ij}) + \epsilon_{ij}$
+
+ , where $E(\epsilon_{ij})=0, var(\epsilon_{ij})=\sigma^{2}$
 
 We can estimate the mean function $\hat{\mu}(t)$ using local linear regression by minimizing:
 
