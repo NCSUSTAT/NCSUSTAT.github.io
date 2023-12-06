@@ -8,14 +8,11 @@ use_math: true
   Classical functional data analysis requires a large number of regularly spaced measurements per subject. In contrast, We propose a nonparametric method to perform functional principal components analysis for the case of sparse longitudinal data. The method aims at irregularly spaced longitudinal data, where the number of repeated measurements available per subject is small.
   
 ## Improvements over Previous Studies
- - The consideration of additional measurement errors is a notable enhancement.
- - The method handles sparse and irregular longitudinal data effectively.
-   - Specifically, it efficiently recovers random trajectories by combining information from individuals and the entire dataset in the coure of constructing estimated mean functions, covariance 
-     functions, and predicting FPC scores through a Bayesian approach. I will explain the process focusing on how the method can borrow information from entire dataset to estimate individual 
-     trajectory.
-
-
-
+- The inclusion of additional measurement errors represents a significant improvement.
+- The method effectively manages sparse and irregular longitudinal data.
+   -In particular, it efficiently reconstructs random trajectories by integrating information from both individual cases and the entire dataset during the construction of estimated mean 
+    functions, covariance functions, and the prediction of FPC scores through a Bayesian approach. I will elaborate on this process, emphasizing how the method leverages information from the 
+    entire dataset to estimate individual trajectories.
 
 
 
