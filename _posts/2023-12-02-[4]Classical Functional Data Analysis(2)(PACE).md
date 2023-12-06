@@ -81,28 +81,8 @@ where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is ${\hat{(\Sigma_{Y_i})}}_{
 $=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
 
 
-
-
-
-
-
-
 ## Reference
 [1]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
