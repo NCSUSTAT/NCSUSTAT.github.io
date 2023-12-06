@@ -65,7 +65,7 @@ The best prediction of the FPC scores for the $i th$ subject, given the data fro
 $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}^{-1}(\tilde{Y_i} - \mu_i) $
 , where $\Sigma_{Y_i} = \text{cov}(\tilde{Y_i},\tilde{Y_i}) = \text{cov}(\tilde{X_i},\tilde{X_i}) + \sigma^2I_{N_i}$ 
 
-that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is ${(\Sigma_{Y_i})}_{j,l}$
+that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is ${{(\Sigma_{Y_i})}_{j,l}}$
 
 $=G(T_{ij},T_{il})+\sigma^2 \delta_{jl} \ (1)$ 
  
