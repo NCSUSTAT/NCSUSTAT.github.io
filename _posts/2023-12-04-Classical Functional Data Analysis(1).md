@@ -76,9 +76,9 @@ To compute the FPC-scores $\hat{\xi}_{ik}$, we use numerical integration, where 
 
 - computing FPC-scores: 
 
-$\hat{\xi}_ik=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
+$\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
 
-$\hat{\xi_{ik}} \approx \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi_k}(t_j) \cdot (t_{j}-t_{j-1})$
+$\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k}(t_j)\cdot(t_{j}-t_{j-1})$
 
 
 
