@@ -2,25 +2,11 @@
 use_math: true
 ---
 
-classical functional data analysis requires a large number of regularly spaced measurements per subject, in contrast to the modern method wich can adapt to  the case of irregularly spaced, sparse longitudinal data, and  the number of repeated measurements available per subject is small. Additionally, the FPC scores are defined through the Karhunen–Loève expansion. 
+Classical functional data analysis requires a substantial number of regularly spaced measurements per subject. In contrast, modern methods are adaptable to scenarios involving irregularly spaced, sparse longitudinal data, even when there are few repeated measurements per subject.
 
-However, when the time points vary widely across subjects and are sparse, down to one or two measurements, FPC scores defined through the Karhunen–Loève expansion are not well approximated by the usual integration method.
+Additionally, Functional Principal Component (FPC) scores are typically defined using the Karhunen–Loève expansion. However, in cases where the time points vary widely across subjects and are sparse, sometimes comprising only one or two measurements, the FPC scores defined through the Karhunen–Loève expansion may not be well approximated using the standard integration method.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In the following post, we will delve into the advancements of modern models that accommodate irregularly spaced, sparse longitudinal data.
 
 ## Signal Functional Form
 
@@ -33,6 +19,7 @@ $\epsilon_i(t)$: realizations from a stochastic process with mean function 0 and
 It includes both random noise and signal-to-signal variations.
 
 $\rightarrow s_i(t) = \mu(t) + \epsilon_i(t)$
+
 
 ## Karhunen–Loeve Theorem
 
@@ -90,9 +77,9 @@ $\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,
 
 computing FPC-scores: 
 
-$\hat{\xi}_{ik}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
+$\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
 
-$\hat{\xi}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot (t_{j}-t{j-1})$
+$\hat{\xi_{ik}}_ = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot (t_{j}-t{j-1})$
 
 
 
