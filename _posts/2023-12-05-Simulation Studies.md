@@ -24,7 +24,7 @@ We use two types of correlation function for model.
 I.SNPTM(matern correlation function)
 
 
-$\rho(s, t) = \frac{1}{(2\pi\theta_1^2)^{\frac{1}{2}}} e^{-\frac{1}{2\theta_1^2}(s - t)^2}(\frac{1}{\theta_2})^{\theta_1} |s -t|^{\theta_1 - 1} B_{\theta_1}(\frac{|s - t|}{\theta_2})$
+$\rho(s, t) = \frac{1}{(2\pi\theta_1^2)^(\frac{1}{2})} e^{-\frac{1}{2\theta_1^2}(s - t)^2}(\frac{1}{\theta_2})^{\theta_1} |s -t|^{\theta_1 - 1} B_{\theta_1}(\frac{|s - t|}{\theta_2})$
 
 where $B_{\theta_1}(\cdot)$ is the modified Bessel function of the second kind of order $\theta_1$, and $\theta_1$ and $\theta_2$ are positive constants.
 
