@@ -76,7 +76,7 @@ Estimates for the FPC scores $\xi_{ik}$ are obtained from (1), by substituting e
 $\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y_i}]$ 
 $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$
 
-where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is $\hat{{(\Sigma_{Y_i})}_{j,l}}$
+where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is $\hat{{(\Sigma_{Y_i})}}_{j,l}$
 
 $=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
 
