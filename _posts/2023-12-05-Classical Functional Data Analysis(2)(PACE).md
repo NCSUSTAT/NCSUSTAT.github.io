@@ -1,9 +1,6 @@
-
 ---
 use_math: true
 ---
-
-
 
 ## Model Estimation
   Complete signals: sampled regularly
