@@ -1,7 +1,7 @@
 
 ---
 
-math_use: true
+use_math: true
 
 ---
 
