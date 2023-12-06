@@ -86,12 +86,12 @@ $\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,
 - This is solved by discretizing the estimated covariance function $\hat{C}(t_j, t_j')$.
 - To compute the FPC-scores $\hat{\zeta}_{ik}$, we use numerical integration, where $t_0 = 0$. The integration formula is as follows:
 
-$\hat{\zeta}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot \Delta t_j$
 
 
-Where:
-- $\Delta t_j = t_j - t_{j-1}$ 
-- $\hat{\zeta}_{ik}$ are the FPC-scores for observation $i$.
+computing FPC-scores: 
+$\hat{\xi}_{ik}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
+
+$\hat{\xi}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot (t_{j}-t{j-1})$
 
 
 
