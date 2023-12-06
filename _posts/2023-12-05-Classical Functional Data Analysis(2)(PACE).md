@@ -10,7 +10,7 @@ use_math: true
 ## Improvements over Previous Studies
 - The inclusion of additional measurement errors represents a significant improvement.
 - The method effectively manages sparse and irregular longitudinal data.
-   -In particular, it efficiently reconstructs random trajectories by integrating information from both individual cases and the entire dataset during the construction of estimated mean 
+   - In particular, it efficiently reconstructs random trajectories by integrating information from both individual cases and the entire dataset during the construction of estimated mean 
     functions, covariance functions, and the prediction of FPC scores through a Bayesian approach. I will elaborate on this process, emphasizing how the method leverages information from the 
     entire dataset to estimate individual trajectories.
 
