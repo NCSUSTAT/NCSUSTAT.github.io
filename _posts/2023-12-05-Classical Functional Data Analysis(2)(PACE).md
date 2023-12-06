@@ -21,7 +21,7 @@ use_math: true
 
 Historical signals $s_{ij}$:
 
-  i=1,...,N: signal index
+  $i=1,...,N$: signal index
   
   $j=1,...,m_i$: observation index in each signal
 
