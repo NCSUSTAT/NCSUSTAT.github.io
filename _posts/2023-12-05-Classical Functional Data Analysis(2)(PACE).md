@@ -67,7 +67,7 @@ $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}
 
 that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is 
 
- ${(\Sigma_{Y_i})_{j,l}} = G(T_{ij},T_{il})+\sigma^2 \delta_{jl} $ 
+ $(\Sigma_{Y_i})_{j,l}=G(T_{ij},T_{il})+\sigma^2 \delta_{jl} $ 
  
  with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
 
