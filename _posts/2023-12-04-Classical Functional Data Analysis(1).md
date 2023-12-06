@@ -89,6 +89,7 @@ $\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,
 
 
 computing FPC-scores: 
+
 $\hat{\xi}_{ik}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt $
 
 $\hat{\xi}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot (t_{j}-t{j-1})$
