@@ -2,6 +2,25 @@
 use_math: true
 ---
 
+classical functional data analysis requires a large number of regularly spaced measurements per subject, in contrast to the modern method wich can adapt to  the case of irregularly spaced, sparse longitudinal data, and  the number of repeated measurements available per subject is small. Additionally, the FPC scores are defined through the Karhunen–Loève expansion. 
+
+However, when the time points vary widely across subjects and are sparse, down to one or two measurements, FPC scores defined through the Karhunen–Loève expansion are not well approximated by the usual integration method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Signal Functional Form
 
@@ -85,6 +104,7 @@ Where:
 
 
 
+## Reference
 
 
 
