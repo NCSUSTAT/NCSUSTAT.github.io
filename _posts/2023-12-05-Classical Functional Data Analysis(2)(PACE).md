@@ -70,7 +70,9 @@ that is, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is
  
  $= G(T_{ij},T_{il})$
  
- $  + \sigma^2 \delta_{jl} $ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
+ $  + \sigma^2 \delta_{jl} $ 
+ 
+ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
 
 Estimates for the FPC scores $\xi_{ik}$ are obtained from (4), by substituting estimates of $\mu_i$, $\lambda_k$, and $\phi_{ik}$, $\Sigma_{Y_i}$ obtained from the entire data ensemble, leading to
 
