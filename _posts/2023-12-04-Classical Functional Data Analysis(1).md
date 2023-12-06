@@ -123,3 +123,18 @@ $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
