@@ -2,6 +2,25 @@
 use_math: true
 ---
 
+
+
+## Introduction to PACE(Principal Analysis by Conditional Expectation)
+  Classical functional data analysis requires a large number of regularly spaced measurements per subject. In contrast, We propose a nonparametric method to perform functional principal components analysis for the case of sparse longitudinal data. The method aims at irregularly spaced longitudinal data, where the number of repeated measurements available per subject is small.
+  
+## Improvements over Previous Studies
+ - The consideration of additional measurement errors is a notable enhancement.
+ - The method handles sparse and irregular longitudinal data effectively.
+   - Specifically, it efficiently recovers random trajectories by combining information from individuals and the entire dataset in the coure of constructing estimated mean functions, covariance 
+     functions, and predicting FPC scores through a Bayesian approach. I will explain the process focusing on how the method can borrow information from entire dataset to estimate individual 
+     trajectory.
+
+
+
+
+
+
+
+
 ## Model Estimation
   Complete signals: sampled regularly
   
