@@ -2,7 +2,6 @@
 ---
 
 use_math: true
-
 ---
 
 
