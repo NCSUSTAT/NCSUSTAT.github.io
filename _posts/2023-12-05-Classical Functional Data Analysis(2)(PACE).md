@@ -78,7 +78,7 @@ $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\m
 
 where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is $\hat{{(\Sigma_{Y_i})}_{j,l}}$
 
-$=\hat{G(T_{ij},T_{il})} + \hat{\sigma}^2\delta_{jl}$. 
+$=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
 
 
 
