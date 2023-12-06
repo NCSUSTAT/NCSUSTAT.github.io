@@ -82,30 +82,25 @@ $\int_{0}^{M} \hat{C}(t, t') \hat{\phi}_k(t)dt = \hat{\lambda}_k\hat{\phi}_k(t')
 
 $\int_{0}^{M} \hat{\phi}_k(t) \cdot \hat{\phi}_m(t) dt :=(1,   if  \ m = k), (0,   if  \ m \neq k) $
 
-- $\int_0^M \phi_k(t) \cdot \phi_m(t) \, dt$ represents the integral of the product of eigenfunctions \\
+$\int_0^M \phi_k(t) \cdot \phi_m(t) \, dt$ represents the integral of the product of eigenfunctions 
 
- $\phi_k(t)$ and $\phi_m(t)$ over the interval [0, M]. The equation evaluates to 1 if $m$ equals $k$ (i.e., $m = k$), indicating that the eigenfunctions are orthonormal for the same index.\\
+$\phi_k(t)$ and $\phi_m(t)$ over the interval [0, M]. The equation evaluates to 1 if $m$ equals $k$ (i.e., $m = k$), indicating that the eigenfunctions are orthonormal for the same index.\\
 
 - The equation evaluates to 0 if $m$ is not equal to $k$ (i.e., $m \neq k$), indicating that the eigenfunctions are orthogonal for different indices.
-
-
-
--This is solved by discretizing the estimated covariance function $\hat{C}(t_j, t_j')$.
-
--To compute the FPC-scores $\hat{\zeta}_{ik}$, we use numerical integration, where $t_0 = 0$. The integration formula is as follows:
-
+- This is solved by discretizing the estimated covariance function $\hat{C}(t_j, t_j')$.
+- To compute the FPC-scores $\hat{\zeta}_{ik}$, we use numerical integration, where $t_0 = 0$. The integration formula is as follows:
 
 $\hat{\zeta}_{ik} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \cdot \hat{\phi}_k(t_j) \cdot \Delta t_j$
 
 
 Where:
-- $\Delta t_j = t_j - t_{j-1}$ (assuming regular grid points)
+- $\Delta t_j = t_j - t_{j-1}$ 
 - $\hat{\zeta}_{ik}$ are the FPC-scores for observation $i$.
 
 
 
 ## Reference
-
+[1]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
 
 
 
