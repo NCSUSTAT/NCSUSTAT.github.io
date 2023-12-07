@@ -3,7 +3,7 @@ use_math: true
 ---
 
 ## Introduction
-- We are concerned with the estimation of the average and covariance functions for functional snippets, which are brief portions of functions that may be observed sporadically within a specific subinterval considerably shorter than the entire study period. Estimating the covariance function for these functional snippets presents a challenge because information about the distant, off-diagonal portions of the covariance structure is entirely absent.
+- The studies are concerned with the estimation of the average and covariance functions for functional snippets, which are brief portions of functions that may be observed sporadically within a specific subinterval considerably shorter than the entire study period. Estimating the covariance function for these functional snippets presents a challenge because information about the distant, off-diagonal portions of the covariance structure is entirely absent.
   
 
 ## Definition of Functional Snippets Data 
