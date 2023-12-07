@@ -56,7 +56,7 @@ Figure1: The design of covariance function from spinal bone mineral density data
    
  - Estimation of variance Function:
 
- - $(\hat{b}_0, \hat{b}_1) = \arg \min_{(b_0, b_1) \in \mathbb{R}^2} \sum_{i=1}^{n} w_i\sum_{j=1}^{m_i} Kh_{\sigma}(T_{ij} - t) \left(f(Y_{ij}) - \hat{\mu}(T_{ij})\right)^2 - b_0 - b_1(T_{ij} - t))^2$
+ - $(\hat{b_0},\hat{b_1}) = \arg \min_{(b_0, b_1) \in R^2} \sum_{i=1}^{n} w_i\sum_{j=1}^{m_i} Kh_{\sigma}(T_{ij} - t) \left(f(Y_{ij}) - \hat{\mu}(T_{ij})\right)^2 - b_0 - b_1(T_{ij} - t))^2$
 
  - 
 
