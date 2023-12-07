@@ -58,7 +58,7 @@ Figure1: The design of covariance function from spinal bone mineral density data
 
    $(\hat{b_0},\hat{b_1}) = \arg \min_{(b_0, b_1) \in R^2} \Sigma_{i=1}^{n} w_i\Sigma_{j=1}^{m_i} Kh_{\sigma}(T_{ij} - t) \left(f(Y_{ij}) - \hat{\mu}(T_{ij})\right)^2 - b_0 - b_1(T_{ij} - t))^2$
 
-   Then \hat{b_0}=\tilde{\zeta}^2(t). Our estimate of $\sigma^2_X(t)$ is $\hat{\sigma}^2_X(t) = \hat{\zeta}^2(t) - \hat{\sigma}^2_0$, where $\hat{\sigma}^2_0$ is a new estimate of $\sigma^2_0$, where $\hat{\zeta}^2(t)$ is the ridged version of $\tilde{\zeta}^2(t)$, $\tilde{\zeta}^2(t)$ is the non-ridged local linear estimate of $\zeta^2(t)$, and $\sigma^2(t) = \mathbb{E}\left[(Y(t) - \mu(t))^2\right] = \sigma^2_X(t) + \sigma^2_0$
+   Then $\hat{b_0}=\tilde{\zeta}^2(t)$. Our estimate of $\sigma^2_X(t)$ is $\hat{\sigma}^2_X(t) = \hat{\zeta}^2(t) - \hat{\sigma}^2_0$, where $\hat{\sigma}^2_0$ is a new estimate of $\sigma^2_0$, where $\hat{\zeta}^2(t)$ is the ridged version of $\tilde{\zeta}^2(t)$, $\tilde{\zeta}^2(t)$ is the non-ridged local linear estimate of $\zeta^2(t)$, and $\sigma^2(t) = \mathbb{E}\left[(Y(t) - \mu(t))^2\right] = \sigma^2_X(t) + \sigma^2_0$
 
  - Estimation of Covariance Function:
 
