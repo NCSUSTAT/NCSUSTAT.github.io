@@ -11,15 +11,9 @@
    - Specifically, we focus on functional data with the following property: each function $\(X_i\)$ is only observed on a subject-specific interval $\(O_i = [A_i, B_i] \subseteq [a, b]\)$
 
    - There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
-  
-   
-$\delta$ such that $0 < \delta < 1$ and $ B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
 
-
-   - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function \(C(s, t)\) is incomplete in the sense that there are no design points in 
-     the off-diagonal region
-
-     $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
+   - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function $\(C(s, t)\)$ is incomplete in the sense that there are no design points in 
+     the off-diagonal region $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
 
    - This is mathematically characterized by $\bigcup_i [A_i, B_i]\right]^2 \cap T_c^\delta = \emptyset.$
 
