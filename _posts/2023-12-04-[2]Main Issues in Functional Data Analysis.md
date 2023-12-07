@@ -21,7 +21,7 @@ $\hat{\xi_{ik}} = \Sigma_{j=1}^{J} (s_i(t_j) - \hat{\mu}(t_j)) \hat{\phi_k}(t_j)
 
 
 Where:
-- $\Delta t_j = t_j - t_{j-1}$ (assuming regular grid points)
+- $\Delta t_j = t_j - t_{j-1}$ 
 - $\hat{\xi}_{ik}$ are the FPC-scores for observation $i$.
 
 
