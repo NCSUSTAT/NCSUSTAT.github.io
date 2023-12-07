@@ -3,6 +3,7 @@
 - To overcome this challenge, we tackle it by breaking down the covariance function into two components: a variance function component and a correlation function component. The variance component can be effectively estimated through nonparametric methods, while the correlation component is modeled parametrically, potentially involving an increasing number of parameters, to account for the missing data in the distant off-diagonal regions. Both theoretical analysis and numerical simulations indicate that this hybrid approach is highly effective. Furthermore, we introduce a novel estimator for the variance of measurement errors and examine its asymptotic properties. This estimator is essential for estimating the variance function when dealing with noisy measurements.
 
 
+
  
 ## REFERENCE
 - [1] Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of Statistics, 25(3), 123-145.
