@@ -18,7 +18,22 @@
    - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset$.
 
 ## Example of Functional Snippets Data
- 
+  - An example is the spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999). The design plot for the covariance
+function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8:8; 26:2] is much larger than this
+band.
+
+
+
+
+
+
+The cause of this phenomenon is that each individual trajectory is only recorded in
+an individual specic subinterval that is much shorter than the span of the study. For the
+spinal bone mineral density data, the span (length of interval between the rst measurement
+and the last one) for each individual is no larger than 4.3 years, while the span for the study
+is about 17 years. Data with this characteristic, mathematically described by (S) or (1),
+are called functional snippets in this paper, analogous to the longitudinal snippets studied
+in Dawson and Muller (2018).
 
 
 
