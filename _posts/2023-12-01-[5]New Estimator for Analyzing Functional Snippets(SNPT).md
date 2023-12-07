@@ -13,7 +13,7 @@ output:
  - The phenomenon that each individual trajectory is only recorded in an individual specic subinterval that is much shorter than the span of the study.
  - Mathematical Expression: 
 
-   - Subjects enter the study at random times and are followed for a short period within the domain $T = [a, b] \subseteq \mathbb{R}$. 
+   - Subjects enter the study at random times and are followed for a short period within the domain $T = [a, b] \subseteq R$. 
 
    - Specifically, we focus on functional data with the following property: each function $X_i$ is only observed on a subject-specific interval $O_i = [A_i, B_i] \subseteq [a, b]$
 
@@ -31,10 +31,12 @@ band.
 
 ![Figure 1:The design of covariance function from spinal bone mineral density data](/images/age1.png)
 
- - The cause of this phenomenon is that each individual trajectory is only recorded in an individual specific subinterval that is much shorter than the span of the study. For the spinal bone mineral density data, the span (length of interval between the first measurement and the last one) for each individual is no larger than 4.3 years, while the span for the study is about 17 years. Data with this characteristic, mathematically described by (S) or (1), are called functional snippets in this paper, analogous to the longitudinal snippets studied in Dawson and Muller (2018).
+ - The cause of this phenomenon is that each individual trajectory is only recorded in an individual specific subinterval that is much shorter than the span of the study. For the spinal bone mineral density data, the span (length of interval between the first measurement and the last one) for each individual is no larger than 4.3 years, while the span for the study is about 17 years. Data with this characteristic, mathematically described by (S) or (1), are called functional snippets in this paper, analogous to the longitudinal snippets studied in Dawson and Muller (2018).
 
 ## Limitation of PACE in the Estimation of Covariance Functional Snippets Data
  - PACE (Yao et al., 2005) is a local smoothing method that, unlike interpolation methods, fails to produce a consistent estimate of the covariance function in the off-diagonal region, as the problem requires data extrapolation. We will demonstrate the vulnerability of PACE for covariance function estimation at the boundary of the domain, where the number of design points is limited, in the Simulation Studies and Data Analysis sections.
+
+ - 
   
 ## SNPT in the Estimation of Covariance Functional Snippets Data
  - 
