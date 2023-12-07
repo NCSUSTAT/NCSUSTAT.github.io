@@ -15,7 +15,7 @@
    - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function $\(C(s, t)\)$ is incomplete in the sense that there are no design points in 
      the off-diagonal region $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
 
-   - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_c^\delta = \emptyset$.
+   - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset$.
 
 ## Example of Functional Snippets Data
 
