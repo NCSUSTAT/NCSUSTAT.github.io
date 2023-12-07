@@ -26,7 +26,6 @@ use_math: true
 function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8.8, 26.2] is much larger than this
 band.
 
-![Figure 1:The design of covariance function from spinal bone mineral density data](/images/age.png)
 <div style="text-align:center;">
   <img src="/images/age.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data">
 </div>
@@ -40,7 +39,8 @@ Figure1: The design of covariance function from spinal bone mineral density data
  - In the Data Analysis for spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999), Li, J., Wang, Q., & Zhang, S. (2021) presented the phenomenon and the estimated covariance estimation function is as below(Figure2):
    
    ![Figure 1:The design of covariance function from spinal bone mineral density data](/images/SNPT.png)
-   
+   <img src="/images/SNPT.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="150%">
+
   Figure2: The estimated covariance estimation functionby PACE
 
 ## SNPT in the Estimation of Covariance Functional Snippets Data
