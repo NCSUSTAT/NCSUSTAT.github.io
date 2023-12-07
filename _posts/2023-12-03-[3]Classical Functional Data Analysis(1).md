@@ -81,6 +81,11 @@ $\hat{\xi_{ik}}=\int_{0}^{M}(s_i(t)-\hat{\mu}(t))\phi_k(t)dt$
 $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k}(t_j)\cdot(t_{j}-t_{j-1})$
 
 
+## FPC-Scores
+   mathematical meaning- inner product in function space  
+
+
+
 
 ## Reference
 [1]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
