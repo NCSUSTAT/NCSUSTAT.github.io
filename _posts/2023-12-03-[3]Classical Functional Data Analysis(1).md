@@ -82,7 +82,7 @@ $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k
 
 
 ## FPC-Scores
-   mathematical meaning- inner product in function space  
+   mathematical meaning- inner product in function space and comparison to Pc in multivariate dim data  
 
 
 
