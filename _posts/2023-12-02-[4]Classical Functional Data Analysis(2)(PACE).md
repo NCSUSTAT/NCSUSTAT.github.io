@@ -91,7 +91,7 @@ where, $\xi_{ik}$ and $\epsilon_{ij}$ are jointly Gaussian. In all of what follo
 $\mu_i = (\mu(T_{i1}), . . . , \mu(T_{iN_i}))^T, and \  \phi_{ik} = (\phi_k(T_{i1}), . . . , \phi_k(T_{iN_i}))^T.$
 
 
-
+## comment on integrating information from both individual cases and the entire dataset in Bayesian Approach
 
 
 ## Reference
