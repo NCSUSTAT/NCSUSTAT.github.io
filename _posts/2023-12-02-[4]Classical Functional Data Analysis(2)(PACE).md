@@ -58,6 +58,15 @@ $\hat{C}(t, t') = \hat{c}_0(t, t')$
 
 To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by discretizing the estimated covariance function $\hat{C}(t, t')$.
 
+
+## Graphical Illustration of Estimation of Covariance Function
+
+
+
+
+
+
+
 ## Computing FPC-Scores
 
 The best prediction of the FPC scores for the $i th$ subject, given the data from that individual, is the conditional expectation, which, under Gaussian assumptions is found to be 
