@@ -64,7 +64,7 @@ Figure1: The design of covariance function from spinal bone mineral density data
  - Estimation of Covariance Function:
 $\hat{Q}_n(\theta) =$
 
-$\sum_{i=1}^{n} \frac{1}{m_i(m_i - 1)} \Sigma_{1 \leq j \neq l \leq m_i}$ 
+$\Sigma_{i=1}^{n} \frac{1}{m_i(m_i - 1)} \Sigma_{1 \leq j \neq l \leq m_i}$ 
 
 $\left(\hat{\sigma}_X(T_{ij})\hat{\sigma_X}(T_{il})\hat{\rho}(T_{ij}, T_{il}) - C_{ijl}\right)^2,$
 
