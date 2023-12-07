@@ -10,31 +10,21 @@
 
    - Specifically, we focus on functional data with the following property: each function $\(X_i\)$ is only observed on a subject-specific interval $\(O_i = [A_i, B_i] \subseteq [a, b]\)$
 
-   - There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
+   - (S) There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
 
    - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function $C(s, t)$ is incomplete in the sense that there are no design points in 
      the off-diagonal region $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
 
-   - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset$.
+   - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset - (1)$.
 
 ## Example of Functional Snippets Data
   - An example is the spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999). The design plot for the covariance
 function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8.8; 26.2] is much larger than this
 band.
 
+![Figure 1: The design of covariance function from spinal bone mineral density data](/images/age.png)
 
-
-
-
-
-
-The cause of this phenomenon is that each individual trajectory is only recorded in
-an individual specic subinterval that is much shorter than the span of the study. For the
-spinal bone mineral density data, the span (length of interval between the rst measurement
-and the last one) for each individual is no larger than 4.3 years, while the span for the study
-is about 17 years. Data with this characteristic, mathematically described by (S) or (1),
-are called functional snippets in this paper, analogous to the longitudinal snippets studied
-in Dawson and Muller (2018).
+ - The cause of this phenomenon is that each individual trajectory is only recorded in an individual specic subinterval that is much shorter than the span of the study. For the spinal bone mineral density data, the span (length of interval between the rst measurement and the last one) for each individual is no larger than 4.3 years, while the span for the study is about 17 years. Data with this characteristic, mathematically described by (S) or (1), are called functional snippets in this paper, analogous to the longitudinal snippets studied in Dawson and Muller (2018).
 
 
 
