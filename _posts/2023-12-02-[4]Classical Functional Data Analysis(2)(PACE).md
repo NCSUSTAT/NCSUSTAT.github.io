@@ -80,7 +80,7 @@ where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is ${\hat{(\Sigma_{Y_i})}}_{
 
 $=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
 
-where, $\xi_{ik}$ and $\epsilon_{ij}$ are jointly Gaussian. In all of what follows, the results pertaining to expectations are always conditional on the observation times $T_{ij}$, $i = 1, . . . , n$, $j = 1, . . . , N_i$. For simplicity, the dependence on $T_{ij}$ is suppressed. Write $\tilde{X_i} = (X_i(T_{i1}), . . . , X_i(T_{iN_i}))^T, {Y_i} = (Y_{i1}, . . . , Y_{iN_i})^T,$
+where, $\xi_{ik}$ and $\epsilon_{ij}$ are jointly Gaussian. In all of what follows, the results pertaining to expectations are always conditional on the observation times $T_{ij}$, $i = 1, . . . , n$, $j = 1, . . . , N_i$. For simplicity, the dependence on $T_{ij}$ is suppressed. Write $\tilde{X_i} = (X_i(T_{i1}), . . . , X_i(T_{iN_i}))^T, \tilde{Y_i} = (Y_{i1}, . . . , Y_{iN_i})^T,$
 $\mu_i = (\mu(T_{i1}), . . . , \mu(T_{iN_i}))^T, and \  \phi_{ik} = (\phi_k(T_{i1}), . . . , \phi_k(T_{iN_i}))^T.$
 
 
