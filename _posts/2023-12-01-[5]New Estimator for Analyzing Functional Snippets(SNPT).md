@@ -17,7 +17,7 @@ use_math: true
    - (S) There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
 
    - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function $C(s, t)$ is incomplete in the sense that there are no design points in 
-     the off-diagonal region $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
+     the off-diagonal region $T_c^\delta = {(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]}.$
 
    - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset - (1)$.
 
@@ -38,8 +38,9 @@ Figure1: The design of covariance function from spinal bone mineral density data
 
  - In the Data Analysis for spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999), Li, J., Wang, Q., & Zhang, S. (2021) presented the phenomenon and the estimated covariance estimation function is as below(Figure2):
    
+<div style="text-align:center;">
    <img src="/images/SNPT.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
-
+</div>
   Figure2: The estimated covariance estimation functionby PACE
 
 ## SNPT in the Estimation of Covariance Functional Snippets Data
