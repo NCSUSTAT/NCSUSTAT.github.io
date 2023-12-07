@@ -23,6 +23,7 @@ function, as shown in Figure 1, indicates that all of the design points fall wit
 band.
 
 ![Figure 1:The design of covariance function from spinal bone mineral density data](/images/age1.png)
+<img src="/images/age1.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 
  - The cause of this phenomenon is that each individual trajectory is only recorded in an individual specific subinterval that is much shorter than the span of the study. For the spinal bone mineral density data, the span (length of interval between the first measurement and the last one) for each individual is no larger than 4.3 years, while the span for the study is about 17 years. Data with this characteristic, mathematically described by (S) or (1), are called functional snippets in this paper, analogous to the longitudinal snippets studied in Dawson and Muller (2018).
 
