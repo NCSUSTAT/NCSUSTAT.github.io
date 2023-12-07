@@ -33,10 +33,8 @@ The correlation function $\rho$ falls into $\mathcal{F}_n$, a $d_n$-dimensional 
 Here, the dimension typically grows with the sample size. For example, one might consider a $d_n$-Fourier basis family:
 
 $\rho_{\theta}(s, t)= \frac{1}{\sqrt{\phi(s)\phi(t)}} \Sigma_{j=1}^{d_n} \theta_j\varphi_j(s)\varphi_j(t), \quad \text{where} \quad 0 \leq \theta_1,  \ldots, \theta_{d_n} $
+and $\Sigma_{j=1}^{d_n} \theta_j = 1$,
 
-and
-
-$\Sigma_{j=1}^{d_n} \theta_j = 1$,
 where $\phi(t) = \left(\Sigma_{j=1}^{d_n} \theta_j\varphi_j^2(t)\right)^{\frac{1}{2}}$ and $\{\varphi_1, \ldots\}$ are fixed orthonormal Fourier basis functions defined on $T$.
 
 ## Estimaors to compare 
