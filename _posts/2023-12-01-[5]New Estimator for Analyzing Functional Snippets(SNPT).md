@@ -62,8 +62,12 @@ Figure1: The design of covariance function from spinal bone mineral density data
    Then $\hat{b_0}=\tilde{\zeta}^2(t)$. Our estimate of $\sigma^2_X(t)$ is $\hat{\sigma}^2_X(t) = \hat{\zeta}^2(t) - \hat{\sigma}^2_0$, where $\hat{\sigma}^2_0$ is a new estimate of $\sigma^2_0$, where $\hat{\zeta}^2(t)$ is the ridged version of $\tilde{\zeta}^2(t)$, $\tilde{\zeta}^2(t)$ is the non-ridged local linear estimate of $\zeta^2(t)$, and $\sigma^2(t) = \mathbb{E}\left[(Y(t) - \mu(t))^2\right] = \sigma^2_X(t) + \sigma^2_0$
 
  - Estimation of Covariance Function:
+$\hat{Q}_n(\theta) =$
 
-   
+$\sum_{i=1}^{n} \frac{1}{m_i(m_i - 1)} \Sigma_{1 \leq j \neq l \leq m_i} \left(\hat{\sigma}_X(T_{ij})\hat{\sigma}_X(T_{il})\hat{\rho}(T_{ij}, T_{il}) - C_{ijl}\right)^2,$
+
+
+where $C_{ijl} = \left(Y_{ij} - \hat{\mu}(T_{ij})\right)\left(Y_{il} - \hat{\mu}(T_{il})\right)$ is the raw covariance of subject $i$ at two different measurement times, $T_{ij}$ and $T_{il}$.
 
     
 
