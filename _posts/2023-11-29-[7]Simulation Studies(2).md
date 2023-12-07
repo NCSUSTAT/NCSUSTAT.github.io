@@ -21,7 +21,7 @@ It can be seen from Figure 2 that the covariance plots under the three estimator
 
 
 
-
+Table 1 summary of relative errors comparing performance of the 3 estimators (PACE, PFBE, SNPTM)
 ![fragmented(middle), sparse(right) data set](/images/table1.png)
 
 
