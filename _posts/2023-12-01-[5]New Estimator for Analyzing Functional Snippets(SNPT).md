@@ -19,7 +19,7 @@ use_math: true
    - As a result, the design of support points (Yao et al., 2005) where one has information about the covariance function $C(s, t)$ is incomplete in the sense that there are no design points in 
      the off-diagonal region $T_c^\delta = \{(s, t) \in [a, b]^2 : |s - t| > \delta(b - a),\ s, t \in [a, b]\}.$
 
-   - This is mathematically characterized by ($\bigcup_i [A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset - (1)$.
+   - This is mathematically characterized by $\bigcup_i ([A_i, B_i]^2) \cap T_{\delta}^{c} = \emptyset - (1)$.
 
 ## Example of Functional Snippets Data
   - An example is the spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999). The design plot for the covariance
