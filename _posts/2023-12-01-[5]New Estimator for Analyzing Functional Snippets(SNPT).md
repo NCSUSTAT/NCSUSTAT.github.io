@@ -19,8 +19,9 @@
 
 ## Example of Functional Snippets Data
   - An example is the spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999). The design plot for the covariance
-function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8:8; 26:2] is much larger than this
+function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8.8; 26.2] is much larger than this
 band.
+
 
 
 
