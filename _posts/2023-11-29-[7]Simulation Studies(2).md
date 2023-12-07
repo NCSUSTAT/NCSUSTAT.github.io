@@ -3,8 +3,7 @@
 
 
 
-
-
+![fragmented(middle), sparse(right) data set](/images/fig1.png)
 
 Figure1: Plot of estimated mean of the 3 estimators (PACE, PFBE, SNPTM) under different values of m and n.
 From Figure 1, it can be seen that the mean plots under the three estimators show that the performance of PACE, PFBE, and SNPTM methods is influenced by the sample size (n) and the number of time points (m). That’s performance improves as the sample size and number of time points increase. 
