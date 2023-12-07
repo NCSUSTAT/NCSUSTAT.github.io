@@ -6,6 +6,7 @@
 ![fragmented(middle), sparse(right) data set](/images/fig1.png)
 
 Figure1: Plot of estimated mean of the 3 estimators (PACE, PFBE, SNPTM) under different values of m and n.
+
 From Figure 1, it can be seen that the mean plots under the three estimators show that the performance of PACE, PFBE, and SNPTM methods is influenced by the sample size (n) and the number of time points (m). That’s performance improves as the sample size and number of time points increase. 
 
 
@@ -22,7 +23,6 @@ It can be seen from Figure 2 that the covariance plots under the three estimator
 
 
 ![fragmented(middle), sparse(right) data set](/images/table1.png)
-
 
 
 From Table 1, the analysis was run on the Bone Mineral Density dataset on 1000 iterations. As shown, ‘m’ and ‘n’ represent the number of time points and the number of spatial locations respectively.  That’s ‘m’ is the number of points at which the response variable (bone density) is observed and ‘n’ is the number of spatial locations at which the response variable is observed. 
