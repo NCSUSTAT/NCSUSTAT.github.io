@@ -12,7 +12,7 @@ From Figure 1, it can be seen that the mean plots under the three estimators sho
 
 
 
-
+![fragmented(middle), sparse(right) data set](/images/fig2.png)
 
 Figure 2: Plot of estimated covariance of the 3 estimators (PACE, PFBE, SNPTM) under different values of m and n.
 
@@ -21,6 +21,7 @@ It can be seen from Figure 2 that the covariance plots under the three estimator
 
 
 
+![fragmented(middle), sparse(right) data set](/images/table1.png)
 
 
 
