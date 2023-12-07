@@ -1,10 +1,5 @@
 ###
-use_math: true 
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    
+use_math: true
 ###
 
 ## Introduction
@@ -31,7 +26,7 @@ output:
 function, as shown in Figure 1, indicates that all of the design points fall within a narrow band around the diagonal area but the domain of interest [8.8, 26.2] is much larger than this
 band.
 
-![Figure 1:The design of covariance function from spinal bone mineral density data](/images/age1.png)
+![Figure 1:The design of covariance function from spinal bone mineral density data](/images/age.png)
 
 Figure1: The design of covariance function from spinal bone mineral density data
 
