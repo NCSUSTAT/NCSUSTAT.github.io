@@ -36,6 +36,7 @@ Figure1: The design of covariance function from spinal bone mineral density data
  - PACE (Yao et al., 2005) is a local smoothing method that, unlike interpolation methods, fails to produce a consistent estimate of the covariance function in the off-diagonal region, as the problem requires data extrapolation. We will demonstrate the vulnerability of PACE for covariance function estimation at the boundary of the domain, where the number of design points is limited, in the Simulation Studies and Data Analysis sections.
 
  - In the Data Analysis for spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999), Li, J., Wang, Q., & Zhang, S. (2021) presented the phenomenon and the estimated covariance estimation function is as below(Figure2):
+   
    ![Figure 1:The design of covariance function from spinal bone mineral density data](/images/SNPT.png)
    
   Figure2: The estimated covariance estimation functionby PACE
