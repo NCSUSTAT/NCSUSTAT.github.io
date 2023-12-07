@@ -48,10 +48,13 @@ Figure1: The design of covariance function from spinal bone mineral density data
 
   
 ## Estimation of Mean Function 
- - 
+ 
+ -  as Yao et al. (2005) can be applied to estimate the mean function $\mu$.
 
 ## Estimation of Variance Function 
 
+ - 
+ 
 ## Estimation of Covariance Function 
 
  
