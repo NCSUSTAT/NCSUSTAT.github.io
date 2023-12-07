@@ -10,7 +10,7 @@
 
    - Specifically, we focus on functional data with the following property: each function $\(X_i\)$ is only observed on a subject-specific interval $\(O_i = [A_i, B_i] \subseteq [a, b]\)$
 
-   - There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and $ B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
+   - There exists an absolute constant $\delta$ such that $0 < \delta < 1 and  B_i - A_i \leq \delta(b - a) for all $i = 1, 2, \ldots$
 
 
 $\delta$ such that $0 < \delta < 1$ and $ B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
