@@ -56,6 +56,8 @@ Figure1: The design of covariance function from spinal bone mineral density data
    
  - Estimation of variance Function:
 
+    
+
    
 
  
