@@ -37,6 +37,7 @@ Figure1: The design of covariance function from spinal bone mineral density data
 
  - In the Data Analysis for spinal bone mineral density data collected from 423 subjects ranging in age from 8.8 to 26.2 years (Bachrach et al., 1999), Li, J., Wang, Q., & Zhang, S. (2021) presented the phenomenon and the estimated covariance estimation function is as below(Figure2):
    ![Figure 1:The design of covariance function from spinal bone mineral density data](/images/SNPT.png)
+   
   Figure2: The estimated covariance estimation functionby PACE
 
 ## SNPT in the Estimation of Covariance Functional Snippets Data
