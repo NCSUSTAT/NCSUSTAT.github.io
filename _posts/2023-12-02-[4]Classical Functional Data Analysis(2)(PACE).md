@@ -108,9 +108,9 @@ $\mu_i = (\mu(T_{i1}), . . . , \mu(T_{iN_i}))^T, and \  \phi_{ik} = (\phi_k(T_{i
 
 ## Bayesian Approach in perspective of integrating information from both individual cases and the entire dataset
 
-- For the estimator of the FPC scores, $\hat{\xi}_{ik} =
+- For the estimator of the FPC scores, $\hat{\xi}_{ik}$ =
 
-  \hat{E}[\xi_{ik} | \tilde{Y}_i] = \hat{\lambda_k} \hat{\phi_{ik}} \hat{\Sigma_{Y_i}}^{-1} (\tilde{Y_i} - \hat{\mu_i})$, the quantities
+  $ \hat{E}[\xi_{ik} | \tilde{Y}_i] = \hat{\lambda_k} \hat{\phi_{ik}} \hat{\Sigma_{Y_i}}^{-1} (\tilde{Y_i} - \hat{\mu_i})$, the quantities
 $\lambda_k$ and $\Sigma_{Y_i}$ are estimated from the entire dataset, borrowing strength from the data on all subjects.
 
 
