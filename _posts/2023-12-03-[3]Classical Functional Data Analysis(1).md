@@ -87,7 +87,7 @@ $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k
 function space spanned by the first M eigenfunctions, and j-th Functional Pricipal component score is expressed as $ z_j=\int (X(t)-\mu(t))H_j(t)dt$=
 $\langle,X(t)-\mu(t),H_j(t),\rangle$, where $C(t,t')=\Sigma_j \lambda_j H_j(t) H_j(t)^Tdt$ by Karhunen–Loeve Theorem.
 
-
+$\langleX(t)-\mu(t),H_j(t)\rangle$
 ## Reference
 [1]Dr. Xiaolei Fang, (2023). ISE789 Lecture note
 
