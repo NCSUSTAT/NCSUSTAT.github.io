@@ -73,6 +73,7 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 
 The assembled pairs $(T_{ij},T_{ik})$ are sufficiently dense in the domain plane, and estimation of the covariance function is feasible for these data.
 
+![fragmented(middle), sparse(right) data set](/images/cd4.png)
 
 ## Computing FPC-Scores
 
