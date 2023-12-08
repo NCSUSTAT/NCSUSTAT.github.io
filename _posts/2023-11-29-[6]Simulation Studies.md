@@ -59,8 +59,9 @@ In conclusion, SNPTM(SP) seems to be the most robust and accurate estimator for 
       exhibits different behaviors in distinct regions.
   - Weaknesses:
     - Computational Complexity: It can be computationally intensive, especially for high-dimensional data or complex models.
-- PACE (PEnalized Covariance Estimation
-  - Strengths: Regularization: Penalized covariance estimation methods, can provide regularization to prevent overfitting and improve generalization to new data.
+- PACE (PEnalized Covariance Estimation)
+  - Strengths:
+    - Regularization: Penalized covariance estimation methods, can provide regularization to prevent overfitting and improve generalization to new data.
   - Weaknesses:
     - Tuning Parameters: Performance can depend on the proper choice of regularization parameters, and finding the right values might require some tuning. Again, Penalized methods assume that the 
      underlying covariance structure is sparse, which might not hold in all situations.
