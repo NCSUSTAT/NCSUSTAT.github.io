@@ -70,8 +70,15 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 
 ## CD4 Count Data in perspective of integrating information from both individual cases and the entire dataset
 
+- The dataset considered here is from the Multicenter AIDS Cohort Study, which includes repeated measurements of physical exams, laboratory results, and CD4 percentages
+for 283 homosexual men who became HIV-positive between 1984 and 1991. All individuals were scheduled to have their measurements made at semiannual visits. However, because
+many individuals missed scheduled visits and the HIV infections happened randomly during the study, the data are sparse, with unequal numbers of repeated measurements per subject
+and different measurement times, $T_{ij}$, per individual. The number of observations per subject ranged from 1 to 14, with a median of 6.
 
-The assembled pairs $(T_{ij},T_{ik})$ are sufficiently dense in the domain plane, and estimation of the covariance function is feasible for these data.
+- That the data from such a classical longitudinal study, with measurements intended to be spaced at regular 6-month intervals, are quite well suited for analysis by PACE is illustrated by
+Figure 2.
+
+- Although the data available per subject are sparse, the assembled pairs $(T_{ij},T_{ik})$ are sufficiently dense in the domain plane, and estimation of the covariance function is feasible for these data.
 
 ![fragmented(middle), sparse(right) data set](/images/cd4.png)
 
