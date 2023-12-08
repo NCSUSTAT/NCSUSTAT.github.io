@@ -68,6 +68,8 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 ![fragmented(middle), sparse(right) data set](/images/st793.jpg)
 
 
+## CD4 Count Data in perspective of integrating information from both individual cases and the entire dataset
+
 
 
 
@@ -95,10 +97,15 @@ where, $\xi_{ik}$ and $\epsilon_{ij}$ are jointly Gaussian. In all of what follo
 $\mu_i = (\mu(T_{i1}), . . . , \mu(T_{iN_i}))^T, and \  \phi_{ik} = (\phi_k(T_{i1}), . . . , \phi_k(T_{iN_i}))^T.$
 
 
-## comment on integrating information from both individual cases and the entire dataset in Bayesian Approach
+## Bayesian Approach in perspective of integrating information from both individual cases and the entire dataset
+
+
+
+
 
 
 ## Reference
+
 [1]Dr. Xiaolei Fang, (2023). ISE789 Lecture note
 
 [2]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
