@@ -61,7 +61,7 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 
 ## Graphical Illustration of Estimation of Covariance Function
 
-
+![fragmented(middle), sparse(right) data set](/images/st793.jpg)
 
 
 
