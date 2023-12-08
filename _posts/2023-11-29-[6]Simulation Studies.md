@@ -52,7 +52,30 @@ The variance of measurement noise provides estimates of the measurement noise va
 In conclusion, SNPTM(SP) seems to be the most robust and accurate estimator for this specific application, providing the lowest relative errors across different scenarios. PACE and PFBE (FOURIER) are also reasonable choices, with performance improving as the sample size and number of time points increase. 
 
 
+## Strength and Weakness of PFBE, PACE, SNPTM
+- PFBE (Piecewise Functional Bayesian Estimation
+  - Strengths:
+    - Flexibility: Piecewise models can capture complex functional relationships by allowing different functional forms in different regions. It is also useful when the underlying process 
+      exhibits different behaviors in distinct regions.
+  - Weaknesses:
+    - Computational Complexity: It can be computationally intensive, especially for high-dimensional data or complex models.
+- PACE (PEnalized Covariance Estimation
+  - Strengths: Regularization: Penalized covariance estimation methods, can provide regularization to prevent overfitting and improve generalization to new data.
+  - Weaknesses:
+   - Tuning Parameters: Performance can depend on the proper choice of regularization parameters, and finding the right values might require some tuning. Again, Penalized methods assume that the 
+     underlying covariance structure is sparse, which might not hold in all situations.
 
+## Strength and Weakness of SNPTM
+- Strengths of SNPTM: 
+  - 1. Tailored for Functional Data: SNPTM is designed specifically for handling functional data, which are characterized by observations in the form of curves or functions. This specialization
+       allows SNPTM to account for the unique properties and challenges associated with functional data analysis.
+  - 2. Estimation of Covariance and Variance Functions: SNPTM provides a methodology for estimating covariance and variance functions over continuous domains, which is essential for understanding 
+       the dependence structure and variability within functional data.
+- Weaknesses of SNPTM:
+  - 1. Computational Complexity: Depending on the specific implementation and the size of the functional data, SNPTM may involve computational complexity, especially when 
+  dealing with large datasets or high-dimensional functional data.
+  - 2. Sensitivity to Model Assumptions: Like many statistical methods, SNPTM may be sensitive to the underlying assumptions of the model, and its performance could be influenced by the 
+  appropriateness of the assumed correlation structures and other model specifications.
 
 
 
