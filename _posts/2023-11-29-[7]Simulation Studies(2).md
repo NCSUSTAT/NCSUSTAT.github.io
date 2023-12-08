@@ -22,7 +22,9 @@ It can be seen from Figure 2 that the covariance plots under the three estimator
 
 
 
+
 ![fragmented(middle), sparse(right) data set](/images/table.png)
+
 Table 1 summary of relative errors comparing performance of the 3 estimators (PACE, PFBE, SNPTM)
 
 From Table 1, the analysis was run on the Bone Mineral Density dataset on 1000 iterations. As shown, ‘m’ and ‘n’ represent the number of time points and the number of spatial locations respectively.  That’s ‘m’ is the number of points at which the response variable (bone density) is observed and ‘n’ is the number of spatial locations at which the response variable is observed. 
