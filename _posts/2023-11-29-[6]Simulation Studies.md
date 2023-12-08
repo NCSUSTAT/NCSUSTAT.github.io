@@ -53,7 +53,7 @@ In conclusion, SNPTM(SP) seems to be the most robust and accurate estimator for 
 
 
 ## Strength and Weakness of PFBE, PACE, SNPTM
-- PFBE (Piecewise Functional Bayesian Estimation
+- PFBE (Piecewise Functional Bayesian Estimation)
   - Strengths:
     - Flexibility: Piecewise models can capture complex functional relationships by allowing different functional forms in different regions. It is also useful when the underlying process 
       exhibits different behaviors in distinct regions.
