@@ -31,7 +31,9 @@ FPC scores. These considerations motivate the alternative method to obtain the F
 
 
 ## Reference
-[1]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
+[1]Dr. Xiaolei Fang, (2023)ISE789 Lecture note
+
+[2]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
 
 
 
