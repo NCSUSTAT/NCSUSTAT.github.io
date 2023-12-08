@@ -59,6 +59,10 @@ $\hat{C}(t, t') = \hat{c}_0(t, t')$
 To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by discretizing the estimated covariance function $\hat{C}(t, t')$.
 
 
+![fragmented(middle), sparse(right) data set](/images/cov1.png)
+
+
+
 ## Graphical Illustration of Estimation of Covariance Function
 
 ![fragmented(middle), sparse(right) data set](/images/st793.jpg)
