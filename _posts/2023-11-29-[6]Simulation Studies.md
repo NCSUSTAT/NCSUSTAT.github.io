@@ -67,14 +67,14 @@ In conclusion, SNPTM(SP) seems to be the most robust and accurate estimator for 
 
 ## Strength and Weakness of SNPTM
 - Strengths of SNPTM: 
-  - 1. Tailored for Functional Data: SNPTM is designed specifically for handling functional data, which are characterized by observations in the form of curves or functions. This specialization
+  - Tailored for Functional Data: SNPTM is designed specifically for handling functional data, which are characterized by observations in the form of curves or functions. This specialization
        allows SNPTM to account for the unique properties and challenges associated with functional data analysis.
-  - 2. Estimation of Covariance and Variance Functions: SNPTM provides a methodology for estimating covariance and variance functions over continuous domains, which is essential for understanding 
+  - Estimation of Covariance and Variance Functions: SNPTM provides a methodology for estimating covariance and variance functions over continuous domains, which is essential for understanding 
        the dependence structure and variability within functional data.
 - Weaknesses of SNPTM:
-  - 1. Computational Complexity: Depending on the specific implementation and the size of the functional data, SNPTM may involve computational complexity, especially when 
+  - Computational Complexity: Depending on the specific implementation and the size of the functional data, SNPTM may involve computational complexity, especially when 
   dealing with large datasets or high-dimensional functional data.
-  - 2. Sensitivity to Model Assumptions: Like many statistical methods, SNPTM may be sensitive to the underlying assumptions of the model, and its performance could be influenced by the 
+  - Sensitivity to Model Assumptions: Like many statistical methods, SNPTM may be sensitive to the underlying assumptions of the model, and its performance could be influenced by the 
   appropriateness of the assumed correlation structures and other model specifications.
 
 
