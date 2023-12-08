@@ -71,6 +71,7 @@ To solve the estimated covariance function, $\hat{\phi}_k(t)$ is estimated by di
 ## CD4 Count Data in perspective of integrating information from both individual cases and the entire dataset
 
 
+The assembled pairs $(T_{ij},T_{ik})$ are sufficiently dense in the domain plane, and estimation of the covariance function is feasible for these data.
 
 
 ## Computing FPC-Scores
