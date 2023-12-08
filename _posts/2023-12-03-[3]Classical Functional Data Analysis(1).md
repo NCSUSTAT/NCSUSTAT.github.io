@@ -88,7 +88,7 @@ $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k
 
 
 ## Reference
-[1]Dr. Xiaolei Fang, (2023)ISE789 Lecture note
+[1]Dr. Xiaolei Fang, (2023). ISE789 Lecture note
 
 [2]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
 
