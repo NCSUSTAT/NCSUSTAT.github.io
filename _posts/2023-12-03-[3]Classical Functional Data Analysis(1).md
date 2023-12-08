@@ -84,8 +84,8 @@ $\hat{\xi_{ik}}\approx\Sigma_{j=1}^{J} (s_i(t_j)-\hat{\mu}(t_j))\cdot\hat{\phi_k
 ## FPC-Scores
 
  In multivarate data analysis, when $X_{n,p}$, $E\[X\]=\mu$, and sample covariance matrix is $C=(X-\mu)^{T}(X-\mu)$, j-th Pricipal component score is expressed as $z_{j}=(X-\mu)^{T}H_j$, where $C=\Sigma_{i=1}^{p}\lambda_i H_i H_i^T$. Similarly, in FPCA, we assume that the infinite-dimensional processes under consideration are well approximated by the projection on the
-function space spanned by the first M eigenfunctions, and j-th Functional Pricipal component score is expressed as $ z_{j}=\int (X(t)-\mu(t))H_j(t)dt$=
-$\langleX(t)-\mu(t),H_j(t),\rangle$, where $C(t,t')=\Sigma_j \lambda_j H_j(t) H_j(t)^Tdt$ by Karhunen–Loeve Theorem.
+function space spanned by the first M eigenfunctions, and j-th Functional Pricipal component score is expressed as $ z_j=\int (X(t)-\mu(t))H_j(t)dt$=
+$\langle,X(t)-\mu(t),H_j(t),\rangle$, where $C(t,t')=\Sigma_j \lambda_j H_j(t) H_j(t)^Tdt$ by Karhunen–Loeve Theorem.
 
 
 ## Reference
