@@ -111,7 +111,7 @@ $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\m
 
 
 
-## Reference
+## REFERENCES
 
 [1]Dr. Xiaolei Fang, (2023). ISE789 Lecture note
 
