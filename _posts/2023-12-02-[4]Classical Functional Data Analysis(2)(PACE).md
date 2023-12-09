@@ -92,10 +92,8 @@ $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}
 
 From the fact that $G(s,t)=cov(\tilde{X}(s),\tilde{X}(t))$, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is ${(\Sigma_{Y_i})}_{j,l}$
 
-$=G(T_{ij},T_{il})+\sigma^2 \delta_{jl} \ -(1)$ 
+$=G(T_{ij},T_{il})+\sigma^2 \delta_{jl} $ with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.   $ -(1)$ 
  
- with $\delta_{jl} = 1$ if $j = l$ and $0$ if $j \neq l$.
-
 Estimates for the FPC scores $\xi_{ik}$ are obtained from (1), by substituting estimates of $\mu_i$, $\lambda_k$, and $\phi_{ik}$, $\Sigma_{Y_i}$ obtained from the entire data ensemble, leading to $\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y_i}]$ 
 $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$
 
