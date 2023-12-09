@@ -1,8 +1,8 @@
 ---
 use_math: true
 ---
-
-Classical functional data analysis requires a substantial number of regularly spaced measurements per subject. In contrast, modern methods are adaptable to scenarios involving irregularly spaced, sparse longitudinal data, even when there are few repeated measurements per subject.
+## Introduction
+- Classical functional data analysis requires a substantial number of regularly spaced measurements per subject. In contrast, modern methods are adaptable to scenarios involving irregularly spaced, sparse longitudinal data, even when there are few repeated measurements per subject.
 
 Additionally, Functional Principal Component (FPC) scores are typically defined using the Karhunen–Loève expansion. However, in cases where the time points vary widely across subjects and are sparse, sometimes comprising only one or two measurements, the FPC scores defined through the Karhunen–Loève expansion may not be well approximated using the standard integration method.
 
