@@ -92,16 +92,16 @@ $\tilde{\xi_{ik}} = E[\xi_{ik}|\tilde{Y_i}] = \lambda_k \phi_{ik}^T \Sigma_{Y_i}
 
 From the fact that $G(s,t)=cov(\tilde{X}(s),\tilde{X}(t))$, the $(j, l)$ entry of the $N_i \times N_i$ matrix $\Sigma_{Y_i}$ is ${(\Sigma_{Y_i})}_{j,l}$
 
-$=G(T_{ij},T_{il})+\sigma^2\delta_{jl} $ with 
+$=G(T_{ij},T_{il})+\sigma^2\delta_{jl} $ 
 
-$\delta_{jl} = 1$ if $j = l$ and $0 if j \neq l$.   $ -(1)$ 
+with $\delta_{jl} = 1$ if $j = l$ and 0 if $j \neq l$.    -(1) 
  
 Estimates for the FPC scores $\xi_{ik}$ are obtained from (1), by substituting estimates of $\mu_i$, $\lambda_k$, and $\phi_{ik}$, $\Sigma_{Y_i}$ obtained from the entire data ensemble, leading to $\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y_i}]$ 
 $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$
 
 where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is ${\hat{(\Sigma_{Y_i})}}_{j,l}$
 
-$=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$. 
+$=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$ 
 
 where, $\xi_{ik}$ and $\epsilon_{ij}$ are jointly Gaussian. In all of what follows, the results pertaining to expectations are always conditional on the observation times $T_{ij}$, $i = 1, . . . , n$, $j = 1, . . . , N_i$. For simplicity, the dependence on $T_{ij}$ is suppressed. Write $\tilde{X_i} = (X_i(T_{i1}), . . . , X_i(T_{iN_i}))^T, \tilde{Y_i} = (Y_{i1}, . . . , Y_{iN_i})^T,$
 $\mu_i = (\mu(T_{i1}), . . . , \mu(T_{iN_i}))^T, and \  \phi_{ik} = (\phi_k(T_{i1}), . . . , \phi_k(T_{iN_i}))^T.$
