@@ -1,6 +1,4 @@
--------
-use_math: true
--------
+
 
 ## Introduction
   
