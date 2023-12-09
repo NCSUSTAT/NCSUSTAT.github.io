@@ -95,9 +95,7 @@ From the fact that $G(s,t)=cov(\tilde{X}(s),\tilde{X}(t))$, the $(j, l)$ entry o
 $=G(T_{ij},T_{il})+\sigma^2\delta_{jl}$ with $\delta_{jl} = 1$ if $j = l$ and 0 if $j \neq l$.    -(1) 
  
 Estimates for the FPC scores $\xi_{ik}$ are obtained from (1), by substituting estimates of $\mu_i$, $\lambda_k$, and $\phi_{ik}$, $\Sigma_{Y_i}$ obtained from the entire data ensemble, leading to $\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y_i}]$ 
-$= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$
-
-where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is ${\hat{(\Sigma_{Y_i})}}_{j,l}$
+$= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$ where the $(j,l)th$ element of $\hat{\Sigma_{Y_i}}$ is ${\hat{(\Sigma_{Y_i})}}_{j,l}$
 
 $=\hat{G}(T_{ij},T_{il}) + \hat{\sigma}^2\delta_{jl}$ 
 
