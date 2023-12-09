@@ -65,7 +65,7 @@ To compute the eigen-function $\hat{\phi}_k(t_j)$, we solve the integral equatio
 
 $\int_{0}^{M} \hat{C}(t, t')\hat{\phi}_k(t)dt=\hat{\lambda}_k\hat{\phi}_k(t')$
 
-$\int_{0}^{M} \hat{\phi}_k(t)\cdot \hat{\phi}_m(t)dt :=(1, if \ m = k), (0, if \ m \neq k)$
+$\int_{0}^{M} \hat{\phi}_k(t)\hat{\phi}_m(t)dt :=(1, if \ m = k), (0, if \ m \neq k)$
 
 The equation evaluates to 0 if $m$ is not equal to $k$ (i.e., $m \neq k$), indicating that the eigenfunctions are orthogonal for different indices.
 
