@@ -87,7 +87,7 @@ function space spanned by the first M eigenfunctions, and $j th$ Functional Pric
 $\langle X(t)-\mu(t),H_j(t) \rangle$, where $C(t,t')=\Sigma_j \lambda_j H_j(t) H_j(t')^Tdt$ by Karhunen–Loeve Theorem.
 
 
-## Reference
+## REFERENCES
 [1]Dr. Xiaolei Fang, (2023). ISE789 Lecture note
 
 [2]Yao, F., Müller, H.-G., & Wang, J.-L. (2005). Functional Data Analysis for Sparse Longitudinal Data. Journal of the American Statistical Association
