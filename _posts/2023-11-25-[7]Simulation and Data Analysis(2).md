@@ -117,7 +117,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 - For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1), which genetate data. Therefore, SNPTM putperforms other since in this casethe model is
   corretly specified for SNPTM.
 
-- As we have pointed out in [5], 
+- As we have pointed out in [5]New Estimator for Analyzing Functional Snippets(SNPT),  it shows the vulnerability of PACE for covariance function estimation at the boundary of the domain, where the number of design points is limited. 
 
 
 
