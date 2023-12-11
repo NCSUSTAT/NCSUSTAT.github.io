@@ -6,7 +6,9 @@ classes: wide
 
 ## Generation of Data 
 
-We generated $X(t)$ from a Gaussian process. For the experiment, covariance functions were considered:
+We generated $X(t)$ from a Gaussian process. 
+
+For the experiment, covariance functions were considered:
 
 $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$ with the variance function $\sigma^2_X(t) = \sqrt{t}e^{-(t-0.1)^2/10+1}$ and the Matérn correlation function $\rho = (0.5, 1)$,
 
