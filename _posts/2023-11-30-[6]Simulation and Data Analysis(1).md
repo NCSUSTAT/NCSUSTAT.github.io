@@ -126,7 +126,7 @@ and $m$ is sampling rate.
 
 - PFBE demonstrates effective performance in estimating patterns where the Matérn correlation function rapidly decays to zero as design points diverge from the diagonal. However, in sparse settings (with m=5), it shows poor performance in the estimation of the variance function. In dense settings (with m=15), this issue appears to be mitigated.
 
-  
+- In this experiment, SNPTM outperforms other since in this case the model is corretly specified for SNPTM. To select a method in practice, one can first produce a scatter plot of the raw covariance function. If the function appears to decay monotonically as the point (s, t) moves away from the diagonal, then SNPT with a monotonic decaying correlation such as SNPTM is recommended. Otherwise, SNPT with a general correlation structure such as SNPTF or the PFBE approach might be adopted. 
 
 ## REFERENCE
 [1] Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of the American Statistical Association, 25(3), 123-145.
