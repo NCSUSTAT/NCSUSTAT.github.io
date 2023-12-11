@@ -114,10 +114,16 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 ## Result Analysis 
 
-- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1), which genetate data. Therefore, SNPTM putperforms other since in this casethe model is
+- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM putperforms other since in this casethe model is
   corretly specified for SNPTM.
 
-- As we have pointed out in [5]New Estimator for Analyzing Functional Snippets(SNPT),  it shows the vulnerability of PACE for covariance function estimation at the boundary of the domain, where the number of design points is limited. 
+- As we have pointed out in [5]New Estimator for Analyzing Functional Snippets(SNPT), PACE estimate, due to the missing data in the off-diagonal region and insufficient
+observations at two ends of the diagonal region, it suffers from signicant boundary effect. In each figure of covariance function estimation for PACE, we set the infinity as the maximum of the entire estimated covariance function value for convinience.
+
+- PFBE shows good performance in estimation of patterns where the Matérn correlation function decay rapidly to zero as design points move away from the diagonal. However, in spare setting,$m=5$, 
+  it performs poor in estimation of variance function. In dense setting, $m=15$, this phenomenon seems to be ameliorated.
+
+- 
 
 
 
