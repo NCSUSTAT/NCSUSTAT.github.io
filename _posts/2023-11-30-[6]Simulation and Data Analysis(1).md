@@ -41,7 +41,13 @@ Sample sizes $n = 200$ were considered to illustrate the behavior of the estimat
 We compare estimated covariance functions of three estimators to the model generating Covariance function 
 with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $m=5, 15$,
 
-where $\delta$ is length of functional fragment and $m$ is sampling rate.
+where $\delta$ is defined as below:
+
+   - Functional data with the following property: each function $X_i$ is only observed on a subject-specific interval $O_i = [A_i, B_i] \subseteq [a, b]$
+
+   - There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
+
+and $m$ is sampling rate.
 
 ## Result
 - setting
