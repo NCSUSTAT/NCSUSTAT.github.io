@@ -35,7 +35,9 @@ To evaluate the numerical performance of the proposed estimators, we generated $
 Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators. We set the domain $T = [0, 1]$. 
 
 We compare estimated covariance functions of three estimators to the model generating Covariance function 
-with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $=5, 15$. 
+with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $m=5, 15$,
+
+where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 ![Estimated Covariance Function(PACE)](/images/PACE_1.png)
 
