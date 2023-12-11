@@ -23,7 +23,7 @@ Figure 2: Plot of estimated covariance of the 3 estimators (PACE, PFBE, SNPTM) u
 It can be seen from Figure 2 that the covariance plots under the three estimators show that the performance of PACE, PFBE, and SNPTM methods for covariance estimation is influenced by the sample size (n) and the number of time points (m). That’s their performance improves as the sample size and number of time points increase. 
 
 
-## Spinal Bone Mineral Density Dataset (Li et al., 2021)
+## Spinal Bone Mineral Density Dataset Analysis
 The Spinal Bone Mineral Density dataset, as introduced by Li et al. (2021), serves as a real-world application
 of the proposed methodologies. This dataset captures longitudinal measurements of bone mineral density at
 various spinal locations. The irregular observation points and sparse nature of the data pose challenges for
