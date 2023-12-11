@@ -40,18 +40,50 @@ with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $m=5, 15$,
 where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 ## Result
-                         Figure1: $m $= 5, $\delta $=0.3
+                         Figure1: $m = 5$, $\delta =0.3$
                          
 <div style="text-align:center;">
    <img src="/images/p1.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
-  
 
+
+                        Figure1: $m = 5$, $\delta =0.3$
+                         
+<div style="text-align:center;">
+   <img src="/images/p2.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
+
+                        Figure1: $m = 5$, $\delta =0.8$
+                         
+<div style="text-align:center;">
+   <img src="/images/p3.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
+
+                       Figure1: $m = 15$, $\delta =0.3$
+                         
+<div style="text-align:center;">
+   <img src="/images/p4.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
+
+                      Figure1: $m = 15$, $\delta =0.5$
+                          
+<div style="text-align:center;">
+   <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
+
+                      Figure1: $m = 15$, $\delta =0.8$
+                          
+<div style="text-align:center;">
+   <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
 
 
 
 
 ## Result Analysis 
+
+
+
 
 
 
