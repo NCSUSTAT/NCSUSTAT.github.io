@@ -39,11 +39,13 @@ with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $m=5, 15$,
 
 where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
-![Estimated Covariance Function(PACE)](/images/PACE_1.png)
+<div style="text-align:center;">
+   <img src="/images/p1.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
+</div>
+  Figure1: $m=5$, $\delta=0.3$
 
-![Estimated Covariance Function(PFBE)](/images/PFBE.png)
 
-![Estimated Covariance Function(SNPTM)](/images/SNPTM.png)
+
 
 
 ## Result Analysis 
