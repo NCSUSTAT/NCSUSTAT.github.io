@@ -46,7 +46,9 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 ## Result
 
 
-                         Figure1: \( m = 5 \), \( \delta = 0.3 \)
+                         Figure1: 
+                         
+                         \( m = 5 \), \( \delta = 0.3 \)
                          
 <div style="text-align:center;">
    <img src="/images/p1.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
