@@ -52,17 +52,17 @@ and $m$ is sampling rate.
 ## Result
 - setting
   
-   -Figure1:  $m = 5$, $\delta =0.3$
+   - Figure1:  $m = 5$, $\delta =0.3$
   
-   -Figure2:  $m = 5$, $\delta =0.5$
+   - Figure2:  $m = 5$, $\delta =0.5$
 
-   -Figure3:  $m = 5$, $\delta =0.8$
+   - Figure3:  $m = 5$, $\delta =0.8$
 
-   -Figure4:  $m = 15$, $\delta =0.3$
+   - Figure4:  $m = 15$, $\delta =0.3$
 
-   -Figure5:  $m = 15$, $\delta =0.5$
+   - Figure5:  $m = 15$, $\delta =0.5$
 
-   -Figure6:  $m = 15$, $\delta =0.8$
+   - Figure6:  $m = 15$, $\delta =0.8$
 
 
                       
