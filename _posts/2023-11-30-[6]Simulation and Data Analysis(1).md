@@ -128,6 +128,9 @@ and $m$ is sampling rate.
 
   
 
+## REFERENCE
+[1] Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of the American Statistical Association, 25(3), 123-145.
+
 
 
 
