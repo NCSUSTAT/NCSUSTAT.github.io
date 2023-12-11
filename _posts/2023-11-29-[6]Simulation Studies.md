@@ -1,5 +1,6 @@
-
-
+---
+classes: wide
+---
 ## Spinal Bone Mineral Density Dataset (Li et al., 2021)
 The Spinal Bone Mineral Density dataset, as introduced by Li et al. (2021), serves as a real-world application
 of the proposed methodologies. This dataset captures longitudinal measurements of bone mineral density at
