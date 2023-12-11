@@ -85,6 +85,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 
 
+
                                             
                          
 <div style="text-align:center;">
