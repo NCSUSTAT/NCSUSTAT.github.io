@@ -97,7 +97,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
                           
 <div style="text-align:center;">
-    <p>Figure1: \( m = 15 \), \( \delta = 0.5 \) </p>
+    <p>Figure5: \( m = 15 \), \( \delta = 0.5 \) </p>
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="80%">
 </div>
 
@@ -105,7 +105,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
                                              
                           
 <div style="text-align:center;">
-    <p>Figure1: \( m = 15 \), \( \delta = 0.8 \) </p>
+    <p>Figure6: \( m = 15 \), \( \delta = 0.8 \) </p>
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="80%">
 </div>
 
