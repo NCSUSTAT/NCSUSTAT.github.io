@@ -1,5 +1,6 @@
 ---
 use_math: true
+classes: wide
 ---
 ## Introduction
 Classical functional data analysis requires a substantial number of regularly spaced measurements per subject. In contrast, modern methods are adaptable to scenarios involving irregularly spaced, sparse longitudinal data, even when there are few repeated measurements per subject.
