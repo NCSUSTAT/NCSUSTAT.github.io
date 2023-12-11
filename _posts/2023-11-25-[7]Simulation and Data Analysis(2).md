@@ -61,7 +61,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
                       
                          
-                                                 Figure1
+                                                 
                          
 <div style="text-align:center;">
     <p>Figure1: \( m = 5 \), \( \delta = 0.3 \) </p>
@@ -69,39 +69,42 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 </div>
 
 
-                                                 Figure2
+                                               
                          
 <div style="text-align:center;">
+    <p>Figure2: \( m = 5 \), \( \delta = 0.5 \) </p>
    <img src="/images/p2.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
-                                                 Figure3
                          
 <div style="text-align:center;">
+    <p>Figure3: \( m = 5 \), \( \delta = 0.8 \) </p>
    <img src="/images/p3.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
 
-                                                 Figure4
+                                            
                          
 <div style="text-align:center;">
+    <p>Figure4: \( m = 15 \), \( \delta = 0.3 \) </p>
    <img src="/images/p4.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
 
-                                                 Figure5
                           
 <div style="text-align:center;">
+    <p>Figure1: \( m = 15 \), \( \delta = 0.5 \) </p>
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
-                                                 Figure6
+                                             
                           
 <div style="text-align:center;">
+    <p>Figure1: \( m = 15 \), \( \delta = 0.8 \) </p>
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
