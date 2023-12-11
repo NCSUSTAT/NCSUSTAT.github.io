@@ -28,14 +28,14 @@ with  $B_{\theta}(.)$ being the modified Bessel function of the second kind of o
 - II.PFBE (penalized Fourier basis expansion)
 - III.PACE (Principal Analysis by Conditional Expectation)
 
-## Estimated Covariance function  
+## Comparison of Estimated Covariance function to the model generating Covariance function  
 
 To evaluate the numerical performance of the proposed estimators, we generated $X(t)$ from a Gaussian process. with $\mu(t)=2s^{2} \sin(2\pi s)$, and Matérn correlation function $\rho = (0.5, 1)$ were considered:
 
-sample sizes $n = 200$ were considered to illustrate the behavior of the estimators. We set the domain $T = [0, 1]$. 
+Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators. We set the domain $T = [0, 1]$. 
 
-
-and $\delta = 0.5$.
+We compare estimated covariance functions of three estimators to the model generating Covariance function 
+with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $=5, 15$. 
 
 ![Estimated Covariance Function(PACE)](/images/PACE_1.png)
 
@@ -44,6 +44,7 @@ and $\delta = 0.5$.
 ![Estimated Covariance Function(SNPTM)](/images/SNPTM.png)
 
 
+## Result Analysis 
 
 
 
