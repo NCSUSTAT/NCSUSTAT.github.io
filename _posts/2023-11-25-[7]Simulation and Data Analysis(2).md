@@ -120,10 +120,9 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 - As we have pointed out in [5]New Estimator for Analyzing Functional Snippets(SNPT), PACE estimate, due to the missing data in the off-diagonal region and insufficient
 observations at two ends of the diagonal region, it suffers from signicant boundary effect. In each figure of covariance function estimation for PACE, we set the infinity as the maximum of the entire estimated covariance function value for convinience.
 
-- PFBE shows good performance in estimation of patterns where the Matérn correlation function decay rapidly to zero as design points move away from the diagonal. However, in spare setting,$m=5$, 
-  it performs poor in estimation of variance function. In dense setting, $m=15$, this phenomenon seems to be ameliorated.
+- PFBE demonstrates effective performance in estimating patterns where the Matérn correlation function rapidly decays to zero as design points diverge from the diagonal. However, in sparse settings (with m=5), it shows poor performance in the estimation of the variance function. In dense settings (with m=15), this issue appears to be mitigated.
 
-- 
+  
 
 
 
