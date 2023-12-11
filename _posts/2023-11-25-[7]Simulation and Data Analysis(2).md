@@ -62,21 +62,21 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
                       
                          
-                           Figure1
+                                                 Figure1
                          
 <div style="text-align:center;">
    <img src="/images/p1.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
-                           Figure2
+                                                 Figure2
                          
 <div style="text-align:center;">
    <img src="/images/p2.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
-                           Figure3
+                                                 Figure3
                          
 <div style="text-align:center;">
    <img src="/images/p3.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
@@ -84,7 +84,7 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 
 
-                          Figure4
+                                                 Figure4
                          
 <div style="text-align:center;">
    <img src="/images/p4.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
@@ -92,14 +92,14 @@ where $\delta$ is length of functional fragment and $m$ is sampling rate.
 
 
 
-                          Figure5
+                                                 Figure5
                           
 <div style="text-align:center;">
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
 </div>
 
 
-                          Figure6
+                                                 Figure6
                           
 <div style="text-align:center;">
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="50%">
