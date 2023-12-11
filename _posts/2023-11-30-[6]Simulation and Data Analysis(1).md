@@ -50,7 +50,7 @@ where $\delta$ is defined as below:
 and $m$ is sampling rate.
 
 ## Result
-- setting
+- Setting
   
    - Figure1:  $m = 5$, $\delta =0.3$
   
