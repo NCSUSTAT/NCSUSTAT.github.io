@@ -42,6 +42,8 @@ and provide accurate representations of the underlying covariance surface.
 
 
 
+
+
 ![fragmented(middle), sparse(right) data set](/images/table.png)
 
 Table 1 summary of relative errors comparing performance of the 3 estimators (PACE, PFBE, SNPTM)
