@@ -120,7 +120,7 @@ and $m$ is sampling rate.
 
 ## Result Analysis 
 
-- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM putperforms other since in this casethe model is
+- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM putperforms other since in this case the model is
   corretly specified for SNPTM.
 
 - As we highlighted in [5]New Estimator for Analyzing Functional Snippets (SNPT), the PACE estimate suffers from significant boundary effects due to missing data in the off-diagonal region and insufficient observations at the two ends of the diagonal region. For convenience, in each figure depicting the covariance function estimation for PACE, we set infinity as the maximum value of the entire estimated covariance function.
