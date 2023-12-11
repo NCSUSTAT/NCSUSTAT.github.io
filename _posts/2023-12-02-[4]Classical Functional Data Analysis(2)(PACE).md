@@ -1,5 +1,6 @@
 ---
 use_math: true
+classes: wide
 ---
 
 
