@@ -57,7 +57,7 @@ The variance of measurement noise provides estimates of the measurement noise va
 In conclusion, SNPTM(SP) seems to be the most robust and accurate estimator for this specific application, providing the lowest relative errors across different scenarios. PACE and PFBE (FOURIER) are also reasonable choices, with performance improving as the sample size and number of time points increase. 
 
 
-## Strength and Weakness of PFBE, PACE, SNPTM
+## Strength and Weakness of PFBE, PACE
 - PFBE (Piecewise Functional Bayesian Estimation)
   - Strengths:
     - Flexibility: Piecewise models can capture complex functional relationships by allowing different functional forms in different regions. It is also useful when the underlying process 
