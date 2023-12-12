@@ -75,12 +75,17 @@ and $m$ represents the average number of measurements per curve.
 </div>
 
 
+
+
                                                
                          
 <div style="text-align:center;">
     <p>Figure2: \( m = 5 \), \( \delta = 0.5 \) </p>
    <img src="/images/p2.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="80%">
 </div>
+
+
+
 
 
                          
@@ -93,6 +98,8 @@ and $m$ represents the average number of measurements per curve.
 
 
                                             
+
+
                          
 <div style="text-align:center;">
     <p>Figure4: \( m = 15 \), \( \delta = 0.3 \) </p>
@@ -101,11 +108,19 @@ and $m$ represents the average number of measurements per curve.
 
 
 
+
+
+
                           
 <div style="text-align:center;">
     <p>Figure5: \( m = 15 \), \( \delta = 0.5 \) </p>
    <img src="/images/p5.png" alt="Figure 1: The design of covariance function from spinal bone mineral density data" width="80%">
 </div>
+
+
+
+
+
 
 
                                              
