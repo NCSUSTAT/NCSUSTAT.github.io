@@ -69,8 +69,7 @@ $\Sigma_{i=1}^{n} \frac{1}{m_i(m_i - 1)} \Sigma_{1 \leq j \neq l \leq m_i}\left(
 
     
 
-   
-
+  
  
 ## REFERENCE
 [1] Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of the American Statistical Association, 25(3), 123-145.
