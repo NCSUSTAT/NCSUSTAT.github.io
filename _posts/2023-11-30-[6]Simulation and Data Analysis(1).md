@@ -47,7 +47,7 @@ where $\delta$ is defined as below:
 
    - There exists an absolute constant $\delta$ such that $0 < \delta < 1$ and  $B_i - A_i \leq \delta(b - a)$ for all $i = 1, 2, \ldots$
 
-and $m$ is sampling rate.
+and $m$ represents the average number of measurements per curve. 
 
 ## Result
 - Setting
