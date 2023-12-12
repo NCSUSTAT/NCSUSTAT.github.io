@@ -120,8 +120,8 @@ and $m$ is sampling rate.
 
 ## Result Analysis 
 
-- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM outperforms other since in this case the model is corretly specified for SNPTM.
-
+- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM outperforms other since in this case the model is corretly specified for SNPTM. For the same sampling rate, as $\delta$ increases, the smoothness of the estimated covariance function increases. This can be easily inferred because the variance function is estimated through kernel smoothing, and the correlation parameter is obtained from optimization involving the estimated variance function.
+  
 - As we highlighted in [5]New Estimator for Analyzing Functional Snippets (SNPT), the PACE estimate suffers from significant boundary effects due to missing data in the off-diagonal region and insufficient observations at the two ends of the diagonal region. For convenience, in each figure depicting the covariance function estimation for PACE, we set infinity as the maximum value of the entire estimated covariance function.
 
 - PFBE demonstrates effective performance in estimating patterns where the Matérn correlation function rapidly decays to zero as design points diverge from the diagonal. However, in sparse settings (with m=5), it shows poor performance in the estimation of the variance function. In dense settings (with m=15), this issue appears to be mitigated.
