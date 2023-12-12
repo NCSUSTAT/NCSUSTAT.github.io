@@ -120,7 +120,7 @@ and $m$ is sampling rate.
 
 ## Result Analysis 
 
-- For every Figure, (2,2) element is the Matérn correlation function $\rho = (0.5, 1)$, which genetate data. Therefore, SNPTM outperforms other since in this case the model is corretly specified for SNPTM. For the same sampling rate, as $\delta$ increases, the smoothness of the estimated covariance function increases. This can be easily inferred because the variance function is estimated through kernel smoothing, and the correlation parameter is obtained from optimization involving the estimated variance function.
+- In every figure, the (2,2) element represents the Matérn correlation function $\rho$ =(0.5,1), which generates the data. Therefore, SNPTM outperforms others since the model is correctly specified for SNPTM in this case. For the same sampling rate, as $\delta$ increases, the smoothness of the estimated covariance function also increases. This can be easily deduced because the variance function is estimated through kernel smoothing, and the correlation parameter is obtained from an optimization that involves the estimated variance function. This fact suggests that SNPT may still be vulnerable to the incompleteness of the given data, in the sense that there are no design points in the off-diagonal region.
   
 - As we highlighted in [5]New Estimator for Analyzing Functional Snippets (SNPT), the PACE estimate suffers from significant boundary effects due to missing data in the off-diagonal region and insufficient observations at the two ends of the diagonal region. For convenience, in each figure depicting the covariance function estimation for PACE, we set infinity as the maximum value of the entire estimated covariance function.
 
