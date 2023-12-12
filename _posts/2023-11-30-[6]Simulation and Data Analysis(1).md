@@ -7,7 +7,6 @@ classes: wide
 </script>
 
 
-
 ## Generation of Data 
 
 We generated $X(t)$ from a Gaussian process. 
