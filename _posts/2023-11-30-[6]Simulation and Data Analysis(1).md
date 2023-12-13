@@ -7,9 +7,8 @@ classes: wide
 </script>
 
 
-
 ## Setting of Suggested New Estimator 
-In the suggested novel model(SNPT) in [5], the covariance function can be decomposed into two parts, variance and correlation function, i.e., $C(s, t) = \sigma^2_X(s) \sigma^2_X(t) \rho(s, t)$, where $\sigma^2_X(t)$ is the variance function of $X$, or more precisely, $\sigma^2_X(t) = E[(X(t) - \mu(t))^2]$, and $\rho(s, t)$ is the correlation function.
+In the suggested novel model(SNPT) in [5], the covariance function can be decomposed into two parts, variance and correlation function, i.e.,  $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, where $\sigma^2_X(t)$ is the variance function of $X$, or more precisely, $\sigma^2_X(t) = E[(X(t) - \mu(t))^2]$, and $\rho(s, t)$ is the correlation function.
 
 We can use matern correlation function for $\rho(s, t)$. 
 
