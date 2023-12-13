@@ -19,7 +19,7 @@ $\epsilon_i(t)$: realizations from a stochastic process with mean function 0 and
 
 It includes both random noise and signal-to-signal variations.
 
-$: s_i(t) = \mu(t) + \epsilon_i(t)$
+$ s_i(t) = \mu(t) + \epsilon_i(t)$
 
 
 ## Karhunen–Loeve Theorem
