@@ -10,7 +10,7 @@ classes: wide
 
 ## Setting of Suggested New Estimator 
 
-We use matern correlation function for model. 
+We use matern correlation function for the suggested novel model(SNPT) in [5]. 
 
 - SNPTM(matern correlation function)
 
