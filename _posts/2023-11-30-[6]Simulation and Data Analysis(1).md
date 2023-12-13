@@ -137,7 +137,6 @@ and $m$ represents the average number of measurements per curve.
 ## Result Analysis 
 
 - In every figure, the (2,2) element represents the $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, which generates the data, where the variance function $\sigma^2_X(t) = 1$ and
-
   the Matérn correlation function  $\rho_\theta$, and $\theta=(1, 1)$.
 
 
