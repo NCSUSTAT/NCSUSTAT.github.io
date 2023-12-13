@@ -7,16 +7,6 @@ classes: wide
 </script>
 
 
-## Generation of Data 
-
-We generated $X(t)$ from a Gaussian process. 
-
-For the experiment, covariance functions were considered:
-
-$C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$ with the variance function $\sigma^2_X(t) = 1$, 
-
-and the Matérn correlation function $\rho_\theta$, where $\theta=(1, 1)$.
-
 
 ## Setting of Suggested New Estimator 
 
