@@ -33,7 +33,7 @@ with  $B_{\theta}(.)$ being the modified Bessel function of the second kind of o
 
 ## Comparison of Estimated Covariance function to the model generating Covariance function  
 
-To evaluate the performance of the proposed estimators, we generated $X(t)$ from a Gaussian process with $\mu(t)=2t^{2} \sin(2\pi t)$, and Matérn correlation function $\rho_{\theta= (0.5, 1)}$:
+To evaluate the performance of the proposed estimators, we generated $X(t)$ from a Gaussian process with $\mu(t)=2t^{2} \sin(2\pi t)$, and Matérn correlation function $\rho_{\theta= (1, 1)}$:
 
 Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators, and we set domain $T = [0, 1]$. 
 
@@ -134,7 +134,7 @@ and $m$ represents the average number of measurements per curve.
 
 ## Result Analysis 
 
-- In every figure, the (2,2) element represents the $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, which generates the data, where the variance function $\sigma^2_X(t) = 1$ and the Matérn correlation function $\rho_{\theta= (0.5, 1)}$.
+- In every figure, the (2,2) element represents the $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, which generates the data, where the variance function $\sigma^2_X(t) = 1$ and the Matérn correlation function  $\rho_\theta$, and $\theta=(1, 1)$.
 
 
 - Consequently, SNPTM demonstrates superior performance since the model is accurately specified for SNPTM in this context. For each sampling rate, as $\delta$ increases, we observe a corresponding increase in the smoothness of the estimated covariance function. This trend holds true even in non-sparse functional snippets data($\delta$=0.3). In this setting, the non-smoothness of the estimated covariance functions in SNPTM becomes still apparent. This can be easily deduced because the variance function is estimated through kernel smoothing, and the correlation parameter is obtained from an optimization that involves the estimated variance function. These observations suggest that SNPTM may still be susceptible to the limitations posed by incomplete data, particularly in the settings where the design points are absent in the off-diagonal region.
