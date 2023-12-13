@@ -18,7 +18,7 @@ $\rho_{\theta}(s, t) = $
 
 $\frac{1}{\gamma{(\theta_1)} 2^{\theta_1-1}}(\sqrt{2\theta_1}\frac{|s-t|}{\theta_2})^{\theta_1}$  
 
-$B_{\theta_1}(\sqrt{2\theta_1}\frac{|s-t|}{\theta_2}), \theta_1, \theta_2>0$,
+$B_{\theta_1}(\sqrt{2\theta_1}\frac{\|s-t\|}{\theta_2}), \theta_1, \theta_2>0$,
 
 with  $B_{\theta}(.)$ being the modified Bessel function of the second kind of order $\theta$.
 
