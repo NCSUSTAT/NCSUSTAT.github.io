@@ -25,7 +25,7 @@ with  $B_{\theta}(.)$ being the modified Bessel function of the second kind of o
 
 ## Comparison of Estimated Covariance function to the model generating Covariance function  
 
-To evaluate the performance of the proposed estimators, we generated $X(t)$ from a Gaussian process with $\mu(t)=2t^{2} \sin(2\pi t)$, and $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, where the variance function $\sigma^2_X(t) = 1$, Matérn correlation function $\rho_{\theta= (1, 1)}$:
+To evaluate the performance of the proposed estimators, we generated $X(t)$ from a Gaussian process with $\mu(t)=2t^{2} \sin(2\pi t)$, and $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$, where the variance function $\sigma^2_X(t) = 1$, Matérn correlation function with $\theta= (1, 1)$:
 
 Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators, and we set domain $T = [0, 1]$. 
 
