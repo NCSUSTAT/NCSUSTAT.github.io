@@ -9,6 +9,7 @@ various spinal locations. The irregular observation points and sparse nature of 
 conventional statistical methods.
 
 - Irregular Observation Points
+  
 The irregularity in the observation points requires the methodologies to adapt to varying data densities and
 handle snippets with different temporal resolutions.
 Sparse Longitudinal Data
@@ -16,6 +17,7 @@ The dataset’s sparsity necessitates robust methodologies capable of deriving m
 the presence of limited data points.
 
 - Gaps in the Off-Diagonal Regions
+  
 Notable gaps in the off-diagonal regions of the covariance structure present challenges for capturing dependencies between non-adjacent time points. Our estimators will be evaluated on their ability to fill these gaps
 and provide accurate representations of the underlying covariance surface.
 
