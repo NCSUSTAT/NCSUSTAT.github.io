@@ -17,7 +17,7 @@ $\mu(t)$: continuous functional mean
 
 $\epsilon_i(t)$: realizations from a stochastic process with mean function 0 and covariance function $C(t,t')$
 
-It includes both random noise and signal-to-signal variations.
+It includes both random noise and signal-to-signal variations:
 
 $s_i(t) = \mu(t) + \epsilon_i(t) $
 
