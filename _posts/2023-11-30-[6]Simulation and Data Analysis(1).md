@@ -35,7 +35,7 @@ with  $B_{\theta}(.)$ being the modified Bessel function of the second kind of o
 
 To evaluate the performance of the proposed estimators, we generated $X(t)$ from a Gaussian process with $\mu(t)=2t^{2} \sin(2\pi t)$, and Matérn correlation function $\rho = (0.5, 1)$:
 
-Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators. We set the domain $T = [0, 1]$. 
+Sample sizes $n = 200$ were considered to illustrate the behavior of the estimators, and domain $T = [0, 1]$. 
 
 We compare estimated covariance functions of three estimators to the model generating Covariance function 
 with different combination of settings: $\delta = 0.3, 0.5, 0.8$ and $m=5, 15$,
