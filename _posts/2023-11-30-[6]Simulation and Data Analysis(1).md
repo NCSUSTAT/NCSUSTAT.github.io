@@ -126,7 +126,7 @@ and $m$ represents the average number of measurements per curve.
 
 ## Result Analysis 
 
-- For convenience, in each figure depicting the covariance function estimation for PACE, we have set infinity as the maximum value of the entire estimated covariance function.
+- For clarity, in each figure that illustrates the covariance function estimation using PACE, we have designated infinity as the maximum real value of the entire estimated covariance function.
 
 - In every figure, the (2,2) element represents the covariance function $C(s, t) = \sigma_{X(s)}\sigma_{X(t)}\rho(s, t)$ of the distribution that generates the data. This function incorporates the variance function $\sigma^2_X(t) = 1$ , and Matérn correlation function  with $\theta= (1, 1)$. Consequently, SNPTM demonstrates superior performance since the model is accurately specified for SNPTM in this context. For each sampling rate, as $\delta$ increases, we observe a corresponding increase in the smoothness of the estimated covariance function. This trend holds true even in non-sparse functional snippets data($\delta$=0.3). In this setting, the non-smoothness of the estimated covariance functions in SNPTM is still apparent. This can be easily deduced because the variance function is estimated through kernel smoothing, and the correlation parameter is obtained from an optimization that involves the estimated variance function. These observations suggest that SNPTM may still be susceptible to the limitations posed by the data with functional snippets.
   
