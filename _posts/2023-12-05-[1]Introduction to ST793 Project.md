@@ -3,6 +3,8 @@ classes: wide
 ---
 
 ## Introduction
+
+## Kyoung Min Kim, Timothy Boakye
   
    - Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
 that traditional statistical methods struggle to address effectively. The ability to represent data as functions
@@ -38,7 +40,6 @@ from sparse and irregular functional data. Through a meticulous examination of t
 and its counterparts, we aim to discern the strengths and weaknesses of each method, paving the way for
 more informed choices in the analysis of longitudinal data applications.
 
-## 
   
 ## REFERENCES
 [1] 1. Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets.
