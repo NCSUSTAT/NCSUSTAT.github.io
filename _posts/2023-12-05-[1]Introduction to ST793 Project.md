@@ -40,7 +40,7 @@ more informed choices in the analysis of longitudinal data applications.
 
 
 
--  by Kyoung Min Kim, Timothy Boakye
+##  by Kyoung Min Kim, Timothy Boakye
 
   
 ## REFERENCES
