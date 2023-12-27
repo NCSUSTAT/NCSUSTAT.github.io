@@ -1,7 +1,7 @@
 
 
 
-## Post Contribution by Kyoung Min Kim
+## Posts Contributed by Kyoung Min Kim
  - []
  - []
  - []
@@ -10,7 +10,7 @@
  - []
  - []
 
-## Post Contribution by Timothy Boakye
+## Posts Contributed by Timothy Boakye
 
  - []
  - []
