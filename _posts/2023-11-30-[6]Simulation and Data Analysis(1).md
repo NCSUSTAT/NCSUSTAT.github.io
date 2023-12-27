@@ -135,6 +135,8 @@ and $m$ represents the average number of measurements per curve.
 
 - In this experiment, SNPTM outperforms other since in this case the model is corretly specified for SNPTM. To select a method in practice, one can first produce a scatter plot of the raw covariance function. If the function appears to decay monotonically as the point (s, t) moves away from the diagonal, then SNPT with a monotonic decaying correlation such as SNPTM is recommended. Otherwise, SNPT with a general correlation structure such as SNPTF or the PFBE approach might be adopted. 
 
+## By Kyoung Min Kim
+
 ## REFERENCE
 [1] Li, J., Wang, Q., & Zhang, S. (2021). Mean and Covariance Estimation for Functional Snippets. Journal of the American Statistical Association, 25(3), 123-145.
 
