@@ -21,10 +21,10 @@ the presence of limited data points.
 Notable gaps in the off-diagonal regions of the covariance structure present challenges for capturing dependencies between non-adjacent time points. Our estimators will be evaluated on their ability to fill these gaps
 and provide accurate representations of the underlying covariance surface.
 
+![fragmented(middle), sparse(right) data set](/images/D1.png)
 
 
-
-
+![fragmented(middle), sparse(right) data set](/images/D2.png)
 
 
 
