@@ -110,7 +110,7 @@ For the estimator of the FPC scores, $\hat{\xi_{ik}} = \hat{E}[\xi_{ik}|\tilde{Y
 $= \hat{\lambda_k}\hat{\phi_{ik}}^T\hat{\Sigma_{Y_i}}^{-1}(\tilde{Y_i} - \hat{\mu_i})$, the quantities $\lambda_k$ and $\Sigma_{Y_i}$ are estimated from the entire dataset, borrowing strength from the data on all subjects.
 
 
-
+##  by Kyoung Min Kim
 
 ## REFERENCES
 
