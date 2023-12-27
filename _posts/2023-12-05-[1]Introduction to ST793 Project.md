@@ -4,7 +4,7 @@ classes: wide
 
 ## Introduction
 
-## Kyoung Min Kim, Timothy Boakye
+-  Kyoung Min Kim, Timothy Boakye
   
    - Functional data analysis has emerged as a powerful tool for unraveling intricate patterns within datasets
 that traditional statistical methods struggle to address effectively. The ability to represent data as functions
