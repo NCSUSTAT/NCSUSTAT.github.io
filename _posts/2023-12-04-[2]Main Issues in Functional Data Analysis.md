@@ -30,7 +30,7 @@ Because in our model the $Y_{ij}$ are available only at discrete random times $T
 for $\mu(t_{ij})$ and $\hat{\phi_k}(t_{ij})$ for $\phi_k(t_{ij})$, leading to $\hat{\xi_{ik}^{S}} = \Sigma_{j=1}^{N_i}(Y_{ij} - \hat{\mu}(T_{ij})) \hat{\phi_k}(T_{ij})(T_{ij} - T_{i,j-1})$, setting $T_{i0} = 0$. For sparse functional data, $\hat{\xi_{ik}^{S}}$ will not provide reasonable approximations to $\xi_{ik}$, for example, when one has only two observations per subject. Moreover, when the measurements are contaminated with errors, the underlying random process $X$ cannot be directly observed. Substituting $Y_{ij}$ for $X_i(T_{ij})$ then leads to biased
 FPC scores. These considerations motivate the alternative method to obtain the FPC scores.
 
-##  by Kyoung Min Kim
+## By Kyoung Min Kim
 ## REFERENCES
 [1]Dr. Xiaolei Fang, (2023)ISE789 Lecture note
 
